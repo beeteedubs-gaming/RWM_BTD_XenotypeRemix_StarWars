@@ -1,1 +1,1 @@
-Repository for SNR Core, a RimWorld mod inspired by [***]
+Repository for Beeteedubs Xenotype Remix: Star Wars mod
