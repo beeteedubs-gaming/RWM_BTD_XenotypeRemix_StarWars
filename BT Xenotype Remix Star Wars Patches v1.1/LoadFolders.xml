@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<loadFolders>
-	<v1.5>
-		<li>.</li>
-		<li>1.5</li>
-		<li IfModActive="lee.theforce.psycast">1.5/Mods/Patches/TheForcePsycast</li>
-	</v1.5>
-</loadFolders>
