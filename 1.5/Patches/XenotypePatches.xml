@@ -1,0 +1,2784 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!-- Abednedo -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Abednedo"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>OuterRim_Abednedo</defName>
+				<label>Abednedo</label>
+				<description>Abednedos are a sentient species native to the planet Abednedo in the Colonies region of the Galaxy. Abednedo are humanoid and mammalian, and their face featured dangling mouth tendrils and two fleshy nostrils. They are a common sight in the galaxy, and were found in multiple, contrasting professions.</description>
+				<descriptionShort>Abednedos are a sentient species native to the planet Abednedo in the Colonies region of the Galaxy.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Abednedo</iconPath>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+                <genes>
+					<li>WoundHealing_Slow</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_AbednedoHead</li>
+					<li>Body_Standard</li>
+					<li>Body_Hulk</li>
+					<li>Skin_Orange</li>
+					<li>Outland_Skin_PaleOrange</li>
+					<li>Skin_Melanin1</li>
+					<li>Skin_Melanin3</li>
+					<li>Skin_Melanin5</li>
+					<li>Outland_Skin_PalePink</li>
+					<li>Outland_Skin_Brown</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>DarkVision</li>
+					<li>AptitudeStrong_Social</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Anzati -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="Sanguophage"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>Sanguophage</defName>
+				<label>Anzati</label>
+				<description>Anzati were a long-lived humanoid species that hailed from the Mid Rim Territories planet of Anzat. They were feared and hated as they fed on the life force of other sentient species.</description>
+				<descriptionShort>Anzati were a long-lived humanoid species that hailed from the Mid Rim Territories planet of Anzat. They were feared and hated as they fed on the life force of other sentient species.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Sanguophage</iconPath>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+                <genes>
+					<li>Ageless</li>
+					<li>ArchiteMetabolism</li>
+					<li>Deathless</li>
+					<li>DiseaseFree</li>
+					<li>PerfectImmunity</li>
+					<li>TotalHealing</li>
+					<li>guy762_Beard_chintendril</li>
+					<li>Hemogenic</li>
+					<li>HemogenDrain</li>
+					<li>Bloodfeeder</li>
+					<li>Coagulate</li>
+					<li>Deathrest</li>
+					<li>LongjumpLegs</li>
+					<li>WoundHealing_SuperFast</li>
+					<li>PsychicAbility_Enhanced</li>
+					<li>MoveSpeed_Quick</li>
+					<li>ToxResist_Total</li>
+					<li>UVSensitivity_Mild</li>
+					<li>Aggression_Aggressive</li>
+					<li>MeleeDamage_Strong</li>
+					<li>Robust</li>
+					<li>guy762_Skin_MidGray</li>
+					<li>Skin_LightGray</li>
+					<li>DarkVision</li>
+					<li>AptitudeStrong_Melee</li>
+					<li>AptitudeStrong_Social</li>
+					<li>AptitudeStrong_Intellectual</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Aqualish -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Aqualish"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>OuterRim_Aqualish</defName>
+				<label>Aqualish</label>
+				<description>Aqualish are a species of sentient humanoids from the planet Ando, they are easily identified by their round black eyes and fur. Some members of the species can have four eyes, but it's more common for them to have two.</description>
+				<descriptionShort>Aqualish are a species of sentient humanoids from the planet Ando.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Aqualish</iconPath>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Aggression_Aggressive</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_AqualishHead</li>
+					<li>Outland_Skin_Brown</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>Skin_InkBlack</li>
+					<li>Skin_SlateGray</li>
+					<li>Skin_LightGray</li>
+					<li>DarkVision</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_aqualish"]</xpath>
+    </Operation>
+
+<!-- Arkanian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Arkanian"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>OuterRim_Arkanian</defName>
+				<label>Arkanian</label>
+				<description>Arkanians are a near-human species native to the planet Arkania, characterized by the skin tone ranging from tan to pale, typically with white hair and eyes. They are experts in genetic engineering, but remain mostly human in appearance, with the only obvious differences being their clawed nails and 4 digits. They see into the infrared spectrum, which enhances their visual sensitivity significantly, but comes with the drawback that they prefer the dark and feel discomfort in the light.</description>
+				<descriptionShort>Arkanians are a near-human species native to the planet Arkania, characterized by the skin tone ranging from tan to pale, typically with white hair and eyes.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Arkanian</iconPath>
+				<nameMaker MayRequire="Ludeon.RimWorld.Royalty">KoTOR_NamerArkanian</nameMaker>
+				<nameMakerFemale MayRequire="Ludeon.RimWorld.Royalty">KoTOR_NamerArkanian</nameMakerFemale>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Turn_Gene_Certain</li>
+					<li>Turn_Gene_BiosculptAccelerated</li>
+					<li>Beauty_Pretty</li>
+					<li>Turn_Gene_HighBeautyStandard</li>
+					<li>Outland_Neg1Metabolism</li>
+					<li>Outland_Pos3Metabolism</li>
+					<li>Body_Standard</li>
+					<li>Hair_SnowWhite</li>
+					<li>Skin_Melanin1</li>
+					<li>Skin_Melanin2</li>
+					<li>Skin_Melanin3</li>
+					<li>Outland_Eye_White</li>
+					<li>Learning_Fast</li>
+					<li>DarkVision</li>
+					<li>Hair_Grayless</li>
+					<li>Outland_DarklightAffinity</li>
+					<li>AptitudePoor_Mining</li>
+					<li>AptitudePoor_Cooking</li>
+					<li>AptitudePoor_Plants</li>
+					<li>AptitudePoor_Animals</li>
+					<li>AptitudeStrong_Medicine</li>
+					<li>AptitudeStrong_Intellectual</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+	
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_arkanian"]</xpath>
+    </Operation>
+
+<!-- Bith -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Bith"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>OuterRim_Bith</defName>
+				<label>Bith</label>
+				<description>The Bith are a peaceful and intelligent sentient species native to the planet Bith. They have large hairless, domed heads, glassy black eyes and lack eyelids. Bith are often found working as musicians, scientists and engineers. They have very sensitive hearing, being able to separate and isolate sounds around them.</description>
+				<descriptionShort>The Bith are a peaceful and intelligent sentient species native to the planet Bith.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Bith</iconPath>
+				<nameMaker>KoTOR_NamerBith</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Immunity_Weak</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_BithHead</li>
+					<li>Body_Thin</li>
+					<li>Skin_Melanin3</li>
+					<li>ElongatedFingers</li>
+					<li>AptitudeStrong_Intellectual</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_bith"]</xpath>
+    </Operation>
+
+<!-- Bothan -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Bothan"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>OuterRim_Bothan</defName>
+				<label>Bothan</label>
+				<description>Bothans are a species of furry mammalian anthropoids from the planet Bothawui, they have a mixture of features resembling a mix of canine, feline and equine. They are infamous for their spy network.</description>
+				<descriptionShort>Bothans are a species of furry mammalian anthropoids from the planet Bothawui, they have a mixture of features resembling a mix of canine, feline and equine. They are infamous for their spy network.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Bothan</iconPath>
+				<nameMaker>KoTOR_NamerBothan</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_BodySizeGene_small</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>OuterRim_BothanHead</li>
+					<li>Body_Standard</li>
+					<li>Hair_SandyBlonde</li>
+					<li>Hair_ReddishBrown</li>
+					<li>Hair_DarkBrown</li>
+					<li>Hair_DarkReddish</li>
+					<li>Hair_MidBlack</li>
+					<li>Ears_Pointed</li>
+					<li>Hair_Grayless</li>
+					<li>Outland_Furbody</li>
+					<li>AptitudeStrong_Social</li>
+					<li>AptitudeStrong_Intellectual</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_bothan"]</xpath>
+    </Operation>
+
+<!-- Cathar -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Cathar"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>OuterRim_Cathar</defName>
+				<label>Cathar</label>
+				<description>The Cathar are a species of feline, bipedal humanoids native to Cathar, a planet of savannas and rough uplands. They are known for their loyalty, passion, and temper. Quick and powerful, they are considered great warriors and dedicated, efficient predators.</description>
+				<descriptionShort>The Cathar are a species of feline, bipedal humanoids native to Cathar, a planet of savannas and rough uplands. They are known for their loyalty, passion, and temper. Quick and powerful, they are considered great warriors and dedicated, efficient predators.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Cathar</iconPath>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_statgene_predator</li>
+					<li>MoveSpeed_Quick</li>
+					<li>BS_Diet_Carnivore</li>
+					<li>Turn_Gene_Duelist</li>
+					<li>Sleepy</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos3Metabolism</li>
+					<li>OuterRim_CatharHead</li>
+					<li>Body_Standard</li>
+					<li>Hair_SandyBlonde</li>
+					<li>Hair_LightOrange</li>
+					<li>Hair_DarkBrown</li>
+					<li>Outland_HairColor_DarkRed</li>
+					<li>Outland_HairColor_BrightOrange</li>
+					<li>Skin_DeepRed</li>
+					<li>Outland_Skin_Red</li>
+					<li>Outland_Skin_DeepBrown</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>Skin_SlateGray</li>
+					<li>Ears_Pointed</li>
+					<li>Outland_Eye_Orange</li>
+					<li>Outland_Eye_Green</li>
+					<li>Outland_Eye_Yellow</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_cathar"]</xpath>
+    </Operation>
+
+<!-- Chadra-Fan -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="Dirtmole"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>Dirtmole</defName>
+				<label>Chadra-Fan</label>
+				<description>The Chadra-Fan was a sentient species of meter-tall, rodent-like humanoids from the Outer Rim world of Chad. They had large ears, and flat noses with four nostrils.</description>
+				<descriptionShort>The Chadra-Fan was a sentient species of meter-tall, rodent-like humanoids from the Outer Rim world of Chad. They had large ears, and flat noses with four nostrils.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon7</iconPath>
+				<nameMaker>KoTOR_NamerChadraFan</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>0.6</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Nose_SmallPig</li>
+					<li>guy762_BodySizeGene_smaller</li>
+					<li>guy762_lifespan_half</li>
+					<li>Turn_Gene_Uncertain</li>
+					<li>Mood_Sanguine</li>
+					<li>UVSensitivity_Mild</li>
+					<li>FireTerror</li>
+					<li>MeleeDamage_Weak</li>
+					<li>LowSleep</li>
+					<li>Pain_Extra</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Body_Standard</li>
+					<li>Hair_ReddishBrown</li>
+					<li>Hair_DarkBrown</li>
+					<li>Hair_DarkReddish</li>
+					<li>Hair_MidBlack</li>
+					<li>Outland_Ears_Fleef</li>
+					<li>DarkVision</li>
+					<li>Furskin</li>
+					<li>AptitudePoor_Melee</li>
+					<li>AptitudeRemarkable_Mining</li>
+					<li>AptitudeStrong_Crafting</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_chadrafan"]</xpath>
+    </Operation>
+
+<!-- Cerean -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Cerean"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>OuterRim_Cerean</defName>
+				<label>Cerean</label>
+				<description>Cereans are a species of sentient mammals hailing from the planet Cerea. They are distinguished by their enlarged conical cranium that contains a binary brain.</description>
+				<descriptionShort>Cereans are a species of sentient mammals hailing from the planet Cerea.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Cerean</iconPath>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_BodySizeGene_big</li>
+					<li>Turn_Gene_SlowNeuralHeat</li>
+					<li>Turn_Gene_Uncertain</li>
+					<li>OuterRim_CereanHead</li>
+					<li>Body_Thin</li>
+					<li>GS_Primitive</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Chiss -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Chiss"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>OuterRim_Chiss</defName>
+				<label>Chiss</label>
+				<description>A blue-skinned, red-eyed, near human sentient species native to the planet Csilla in the Unknown Regions. They left the galactic core millenia ago and changed during that time due to the environmental effects of the planet they settled now named Csilla. They have been largely disconnected from the rest of the galaxy aside from a handful of times where they made their way out of the maze like Unknown Regions.</description>
+				<descriptionShort>A blue-skinned, red-eyed, near human sentient species native to the planet Csilla in the Unknown Regions.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Chiss</iconPath>
+				<nameMaker>OuterRim_ChissNameGenerator</nameMaker>
+				<chanceToUseNameMaker>999</chanceToUseNameMaker>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>PsychicAbility_Dull</li>
+					<li>MinTemp_LargeDecrease</li>
+					<li>MaxTemp_SmallDecrease</li>
+					<li>UVSensitivity_Mild</li>
+					<li>Aggression_DeadCalm</li>
+					<li>Turn_Gene_HighBeautyStandard</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>Outland_SvelteHead</li>
+					<li>Body_Standard</li>
+					<li>Outland_HairColor_DarkAzure</li>
+					<li>Skin_Blue</li>
+					<li>Eyes_Red</li>
+					<li>Turn_Gene_NaturalLeader</li>
+					<li>Hair_Grayless</li>
+					<li>Turn_Gene_MotivationHigh</li>
+					<li>AptitudeStrong_Social</li>
+					<li>AptitudeStrong_Intellectual</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_chiss"]</xpath>
+    </Operation>
+
+<!-- Dathomirian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Dathomirian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Dathomirian</defName>
+				<label>Dathomirian</label>
+				<description>Dathomirians are a subspecies of Zabrak from the planet Dathomir, they show a considerable sexual dimorphism with males having horns and colorful skin while females had no horns and pale gray skin tones. Female Dathomirians commonly live as witches known as Nightsisters.</description>
+				<descriptionShort>Dathomirians are a subspecies of Zabrak from the planet Dathomir.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Dathomirian</iconPath>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>PsychicAbility_Enhanced</li>
+					<li>Turn_Gene_LatentPsychic</li>
+					<li>Turn_Gene_MeditationNeed</li>
+					<li>Turn_Gene_TraitGrandeur</li>
+					<li>Aggression_Aggressive</li>
+					<li>MeleeDamage_Strong</li>
+					<li>Turn_Gene_Duelist</li>
+					<li>Pain_Reduced</li>
+					<li>Outland_LowFertility</li>
+					<li>Outland_DeceleratedPregnancy</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_BaldMale</li>
+					<li>Outland_Pos1Metabolism</li>
+					<li>OuterRim_DathomirianHead</li>
+					<li>Hair_Gray</li>
+					<li>OuterRim_FemalePaleSkin</li>
+					<li>OuterRim_MaleOrangeSkin</li>
+					<li>OuterRim_MaleRedSkin</li>
+					<li>OuterRim_MaleYellowSkin</li>
+					<li>OuterRim_ZabrakHornsMale</li>
+					<li>Outland_ThickSkin</li>
+					<li>AptitudeStrong_Melee</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_zabrakDathomiri"]</xpath>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_zabrak"]</xpath>
+    </Operation>
+
+<!-- Defel -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_defel"]</xpath>
+        <value>
+            <XenotypeDef>
+                <defName>BT_Defel</defName>
+				<label>Defel</label>
+				<description>.</description>
+				<descriptionShort>.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon10</iconPath>
+				<combatPowerFactor>0.6</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Face_pointyteeth</li>
+					<li>guy762_Nose_Dog</li>
+					<li>guy762_statgene_predator</li>
+					<li>guy762_BodySizeGene_small</li>
+					<li>BS_Diet_Carnivore</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Body_Standard</li>
+					<li>Hair_DarkSaturatedReddish</li>
+					<li>Hair_DarkReddish</li>
+					<li>Hair_MidBlack</li>
+					<li>Hair_DarkBlack</li>
+					<li>Ears_Pointed</li>
+					<li>Eyes_Red</li>
+					<li>RobustDigestion</li>
+					<li>Nearsighted</li>
+					<li>DarkVision</li>
+					<li>Furskin</li>
+					<li>AptitudeTerrible_Mining</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Devaronian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Devaronian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Devaronian</defName>
+				<label>Devaronian</label>
+				<description>Devaronians are a sentient species from the planet Devaron. They exhibit great sexual dimorphisim, with the males being bald and having long horns, while the females have smooth plates where the horns would be and instead have a full head of hair.</description>
+				<descriptionShort>Devaronians are a sentient species from the planet Devaron.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Devaronian</iconPath>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>BS_Diet_Carnivore</li>
+					<li>ToxResist_Total</li>
+					<li>FireResistant</li>
+					<li>Outland_Chest_Fur</li>
+					<li>Outland_BaldMale</li>
+					<li>Outland_Pos4Metabolism</li>
+					<li>Body_Standard</li>
+					<li>OuterRim_FemalePaleSkin</li>
+					<li>OuterRim_MaleRedSkin</li>
+					<li>OuterRim_DevaronianHorns</li>
+					<li>Outland_Blood_Black</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_devaronian"]</xpath>
+    </Operation>
+
+<!-- Duros -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Duros"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Duros</defName>
+				<label>Duros</label>
+				<description>Duros are a humanoid species common in the galaxy native to the planet Duro. They have smooth blue skin, red eyes and lipless mouths, lacking a nose entirely. They are related to the similar-looking Neimoidian species, having diverged as physically distinct species millenia ago.</description>
+				<descriptionShort>Duros are a humanoid species common in the galaxy native to the planet Duro. They have smooth blue skin, red eyes and lipless mouths, lacking a nose entirely.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Duros</iconPath>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Outland_EggLayer</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>OuterRim_DurosHead</li>
+					<li>Skin_Blue</li>
+					<li>guy762_Skin_SlateBlue</li>
+					<li>guy762_Skin_Turquoise</li>
+					<li>guy762_Eyes_HugeRed</li>
+					<li>guy762_Eyes_HugeYellow</li>
+					<li>ElongatedFingers</li>
+					<li>Outland_Blood_Green</li>
+					<li>AptitudeStrong_Shooting</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_duros"]</xpath>
+    </Operation>
+
+<!-- Echani -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_echani"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_echani</defName>
+				<label>Echani</label>
+				<description>The Echani had similar anatomy to that of humans, but were physically distinct due to their light skin, white hair and silver eyes. It was believed that the Echani were a result of Arkanian experimentation with the Human genome, a theory which could explain the resemblance among these members of the species.</description>
+				<descriptionShort>The Echani had similar anatomy to that of humans, but were physically distinct due to their light skin, white hair and silver eyes. It was believed that the Echani were a result of Arkanian experimentation with the Human genome, a theory which could explain the resemblance among these members of the species.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+				<combatPowerFactor>0.6</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Turn_Gene_MeditationNeed</li>
+					<li>MeleeDamage_Strong</li>
+					<li>Turn_Gene_Duelist</li>
+					<li>Beauty_Pretty</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Body_Standard</li>
+					<li>Hair_SnowWhite</li>
+					<li>guy762_Skin_SlateBlue</li>
+					<li>Skin_LightGray</li>
+					<li>Skin_SheerWhite</li>
+					<li>AptitudeTerrible_Shooting</li>
+					<li>AptitudeStrong_Crafting</li>
+					<li>AptitudePoor_Social</li>
+                </genes>
+            </XenotypeDef>
+        </value>
+    </Operation>	
+
+<!-- Ewok -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Ewok"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Ewok</defName>
+				<label>Ewok</label>
+				<description>Ewoks are a small primitive species of furry bipeds from the forest moon of Endor, rarely found elsewhere. Despite their diminutive size, they are highly aggressive and capable predators.</description>
+				<descriptionShort>Ewoks are a small primitive species of furry bipeds from the forest moon of Endor, rarely found elsewhere. Despite their diminutive size, they are highly aggressive and capable predators.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Ewok</iconPath>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Eyes_Big</li>
+					<li>guy762_BodySizeGene_smaller</li>
+					<li>Turn_Gene_PruningAccelerated</li>
+					<li>Turn_Gene_GauranlenNeed</li>
+					<li>NakedSpeed</li>
+					<li>BS_Diet_Carnivore</li>
+					<li>Aggression_Aggressive</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Nose_Leathery</li>
+					<li>Jaw_Heavy</li>
+					<li>Body_Hulk</li>
+					<li>Hair_SandyBlonde</li>
+					<li>Hair_ReddishBrown</li>
+					<li>Hair_DarkBrown</li>
+					<li>Hair_DarkReddish</li>
+					<li>Hair_MidBlack</li>
+					<li>Outland_Ears_Teddy</li>
+					<li>Learning_Fast</li>
+					<li>GS_Primitive</li>
+					<li>Furskin</li>
+					<li>AptitudeRemarkable_Shooting</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_ewok"]</xpath>
+    </Operation>
+
+<!-- Falleen -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_falleen"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_falleen</defName>
+				<label>Falleen</label>
+				<description>The Falleen were a repto-mammalian sentient species who had a distinctive alien appearance. They were distinguished by their mottled greenskin, ridged skulls, and their long, black hair which they typically wore in ponytails. Falleen exuded powerful pheromones which they used to attract mates.</description>
+				<descriptionShort>The Falleen were a repto-mammalian sentient species who had a distinctive alien appearance. They were distinguished by their mottled greenskin, ridged skulls, and their long, black hair which they typically wore in ponytails. Falleen exuded powerful pheromones which they used to attract mates.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
+				<nameMaker>KoTOR_NamerFalleen</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>guy762_statgene_metabolismcheat</li>
+					<li>guy762_BodyAttachment_falleen</li>
+					<li>guy762_butchergene_lizardskin</li>
+					<li>guy762_lifespan_double</li>
+					<li>Turn_Gene_Certain</li>
+					<li>Turn_Gene_TraitGrandeur</li>
+					<li>MinTemp_SmallIncrease</li>
+					<li>MaxTemp_LargeIncrease</li>
+					<li>Aggression_DeadCalm</li>
+					<li>Outland_EggLayer</li>
+					<li>Beauty_Pretty</li>
+					<li>Hair_LongOnly</li>
+					<li>Hair_DarkBlack</li>
+					<li>Outland_Skin_Sage</li>
+					<li>Outland_Skin_PaleSage</li>
+					<li>Outland_Skin_DeepViridian</li>
+					<li>Outland_Skin_Viridian</li>
+					<li>Outland_RidgedSkin</li>
+					<li>Outland_FamiliarScent</li>
+					<li>AptitudeStrong_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Feeorin -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_feeorin"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_feeorin</defName>
+				<label>Feeorin</label>
+				<description>The average Feeorin had thick tendrils hanging from the backs of their heads and much smaller and thinner ones hanging from their face.They could live up to 400 years and due to a unique metabolism grew stronger with age rather than weaker.</description>
+				<descriptionShort>The average Feeorin had thick tendrils hanging from the backs of their heads and much smaller and thinner ones hanging from their face.They could live up to 400 years and due to a unique metabolism grew stronger with age rather than weaker.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+				<nameMaker>KoTOR_NamerFeeorin</nameMaker>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>DiseaseFree</li>
+					<li>TotalHealing</li>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>guy762_Headbone_nautolan</li>
+					<li>guy762_Beard_chintendril</li>
+					<li>guy762_BodySizeGene_bigger</li>
+					<li>guy762_lifespan_quad</li>
+					<li>Turn_Gene_TraitGrandeur</li>
+					<li>Aggression_Aggressive</li>
+					<li>Robust</li>
+					<li>Outland_EggLayer</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>Jaw_Heavy</li>
+					<li>Body_Hulk</li>
+					<li>Skin_Blue</li>
+					<li>Skin_Purple</li>
+					<li>guy762_Skin_Turquoise</li>
+					<li>Eyes_Red</li>
+					<li>Outland_Eye_Orange</li>
+					<li>Outland_Eye_Yellow</li>
+					<li>Outland_ThickSkin</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Force Gremlin -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_ForceGremlin"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_ForceGremlin</defName>
+				<label>Yoder</label>
+				<description>An extremely rare and unnamed sentient species, nicknamed 'force gremlins' by at least one group of humans. This species is capable of living for a very long time, but have an equally long period of growth, taking the entire lifetime of some other species just to mature into adulthood. All known examples of this species has been highly force sensitive, making them a dangerous enemy if you were to cross them.</description>
+				<descriptionShort>An extremely rare and unnamed sentient species, nicknamed 'force gremlins' by at least one group of humans.</descriptionShort>
+				<factionlessGenerationWeight>0.001</factionlessGenerationWeight>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_ForceGremlin</iconPath>
+				<genes>
+					<li>guy762_statgene_PsyHarmonize</li>
+					<li>guy762_BodySizeGene_smaller</li>
+					<li>guy762_lifespan_nine</li>
+					<li>PsychicAbility_Extreme</li>
+					<li>Turn_Gene_LatentPsychic</li>
+					<li>Turn_Gene_VeryFastNeuralHeat</li>
+					<li>Turn_Gene_MeditationNeed</li>
+					<li>Aggression_DeadCalm</li>
+					<li>MeleeDamage_Strong</li>
+					<li>Turn_Gene_Duelist</li>
+					<li>KindInstinct</li>
+					<li>Outland_LowFertility</li>
+					<li>Outland_Pos5Metabolism</li>
+					<li>Outland_Pos7Metabolism</li>
+					<li>Body_Standard</li>
+					<li>Skin_Green</li>
+					<li>Outland_Ears_BigEars</li>
+					<li>Outland_DeceleratedMaturation</li>
+					<li>AptitudeStrong_Melee</li>
+					<li>AptitudeStrong_Social</li>
+					<li>AptitudeStrong_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Gamorrean -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="Pigskin"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>Pigskin</defName>
+				<label>Gamorrean</label>
+				<description>A species of tall, strong bipeds, the Gamorreans had porcine traits,like an upturned, large-nostriled cartilaginous snout, jowls, and upturned tusks. Their hulking bodies were covered in green or rarely pink, thick and hairless skin.</description>
+				<descriptionShort>A species of tall, strong bipeds, the Gamorreans had porcine traits,like an upturned, large-nostriled cartilaginous snout, jowls, and upturned tusks. Their hulking bodies were covered in green or rarely pink, thick and hairless skin.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Pigskin</iconPath>
+				<nameMaker>KoTOR_NamerGamorrean</nameMaker>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Face_jowls</li>
+					<li>guy762_Face_tusks</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>Turn_Gene_VerySlowNeuralHeat</li>
+					<li>Turn_Gene_HerdMentality</li>
+					<li>Aggression_Aggressive</li>
+					<li>MeleeDamage_Strong</li>
+					<li>Robust</li>
+					<li>Beauty_VeryUgly</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Brow_Heavy</li>
+					<li>Nose_Pig</li>
+					<li>Jaw_Heavy</li>
+					<li>Body_Fat</li>
+					<li>Skin_Green</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>Headbone_MiniHorns</li>
+					<li>VoicePig</li>
+					<li>StrongStomach</li>
+					<li>RobustDigestion</li>
+					<li>GS_Primitive</li>
+					<li>Unstoppable</li>
+					<li>AptitudeTerrible_Crafting</li>
+					<li>AptitudeTerrible_Social</li>
+					<li>AptitudeTerrible_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Gand -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_gand"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_gand</defName>
+				<label>Gand</label>
+				<description>.</description>
+				<descriptionShort>.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon8</iconPath>
+				<nameMaker>KoTOR_NamerGand</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_butchergene_insectmeat</li>
+					<li>guy762_statgene_metabolismcheat</li>
+					<li>guy762_Head_gand</li>
+					<li>guy762_HeadAttachment_gandmask</li>
+					<li>guy762_BodySizeGene_small</li>
+					<li>guy762_lifespan_half</li>
+					<li>PsychicAbility_Enhanced</li>
+					<li>Turn_Gene_MeditationNeed</li>
+					<li>ToxResist_Total</li>
+					<li>FireWeakness</li>
+					<li>Pain_Reduced</li>
+					<li>Outland_EggLayer</li>
+					<li>Beauty_VeryUgly</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Body_Standard</li>
+					<li>Skin_PaleYellow</li>
+					<li>guy762_Skin_PaleOrange</li>
+					<li>guy762_Skin_SlateRed</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>Hands_Pig</li>
+					<li>Turn_Gene_VoiceDryad</li>
+					<li>DarkVision</li>
+					<li>PollutionRush</li>
+					<li>Outland_InsectBody</li>
+					<li>Outland_FamiliarScent</li>
+					<li>AptitudePoor_Shooting</li>
+					<li>AptitudePoor_Melee</li>
+					<li>AptitudeRemarkable_Crafting</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Geonosian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Geonosian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Geonosian</defName>
+				<label>Geonosian</label>
+				<description>A winged semi-insectoid species native to Geonosis, they live in large spire like colonies. Known for their capability for large scale construction.</description>
+				<descriptionShort>A winged semi-insectoid species native to Geonosis, they live in large spire like colonies. Known for their capability for large scale construction.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon8</iconPath>
+				<combatPowerFactor>0.7</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_butchergene_insectmeat</li>
+					<li>MeleeDamage_Weak</li>
+					<li>Delicate</li>
+					<li>Outland_EggLayer</li>
+					<li>Outland_LowFertility</li>
+					<li>Beauty_Ugly</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_GeonosianHead</li>
+					<li>Body_Thin</li>
+					<li>Outland_Skin_DeepBrown</li>
+					<li>Outland_Skin_Brown</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>Outland_Wings_Insect</li>
+					<li>Outland_Voice_Insect</li>
+					<li>Outland_InsectBody</li>
+					<li>Turn_Gene_MotivationHigh</li>
+					<li>Outland_BodyScale_Small</li>
+					<li>AptitudeStrong_Crafting</li>
+					<li>AptitudeTerrible_Social</li>
+					<li>AptitudeTerrible_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_geonosian_drone"]</xpath>
+    </Operation>
+
+<!-- Gungan -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Gungan"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Gungan</defName>
+				<label>gungan</label>
+				<description>Gungans are an amphibious species native to the planet Naboo, they can live in both water and land, often making their home in underwater cities. Gungans are capable warriors, having strong leg muscles allowing them to jump around with ease, but have a lower intelligence than humans.</description>
+				<descriptionShort>Gungans are an amphibious species native to the planet Naboo, they can live in both water and land, often making their home in underwater cities.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Gungan</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Outland_LeaperLegs</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>Outland_EggLayer</li>
+					<li>Outland_DeceleratedPregnancy</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>OuterRim_GunganHead</li>
+					<li>Body_Thin</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>OuterRim_GunganEars</li>
+					<li>Outland_WebbedFeet</li>
+					<li>AptitudeStrong_Social</li>
+					<li>AptitudePoor_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_gungan"]</xpath>
+    </Operation>
+
+<!-- Herglic -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Herglic"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Herglic</defName>
+				<label>Herglic</label>
+				<description>Herglics are a hulking species with black skin, a wide mouth and oily eyes. They are a rare sight in the galaxy and can hit like a wrecking ball. Their thick skin allows them to shake off most blunt attacks.</description>
+				<descriptionShort>Herglics are a hulking species with black skin, a wide mouth and oily eyes. They are a rare sight in the galaxy and can hit like a wrecking ball.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Herglic</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>MeleeDamage_Strong</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_HerglicHead</li>
+					<li>Body_Hulk</li>
+					<li>Skin_InkBlack</li>
+					<li>Skin_SlateGray</li>
+					<li>Outland_ThickSkin</li>
+					<li>Outland_BodyScale_Large</li>
+					<li>AptitudeStrong_Shooting</li>
+					<li>AptitudeStrong_Melee</li>
+					<li>AptitudePoor_Construction</li>
+					<li>AptitudePoor_Medicine</li>
+					<li>AptitudePoor_Social</li>
+					<li>AptitudePoor_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Hutt -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_hutt"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_hutt</defName>
+				<label>Hutt</label>
+				<description>e</description>
+				<descriptionShort>e</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+				<nameMaker>KoTOR_NamerHutt</nameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Head_hutt</li>
+					<li>guy762_Tail_hutt</li>
+					<li>guy762_BodySizeGene_biggest</li>
+					<li>guy762_lifespan_nine</li>
+					<li>NakedSpeed</li>
+					<li>Turn_Gene_TraitGrandeur</li>
+					<li>MaxTemp_SmallIncrease</li>
+					<li>Robust</li>
+					<li>VU_Hermaphromorph</li>
+					<li>Beauty_VeryUgly</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Body_Fat</li>
+					<li>Skin_PaleYellow</li>
+					<li>Outland_Skin_DeepLime</li>
+					<li>Skin_Green</li>
+					<li>Outland_Skin_Sage</li>
+					<li>Outland_Skin_DeepPurple</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>guy762_Skin_PaleOrange</li>
+					<li>guy762_Skin_Lavender</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>guy762_Eyes_BigRed</li>
+					<li>guy762_Eyes_BigOrange</li>
+					<li>guy762_Eyes_BigYellow</li>
+					<li>guy762_Eyes_BigGreen</li>
+					<li>StrongStomach</li>
+					<li>RobustDigestion</li>
+					<li>DarkVision</li>
+					<li>AptitudeStrong_Social</li>
+					<li>AptitudeStrong_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Iktotchi -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Iktotchi"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Iktotchi</defName>
+				<label>Iktotchi</label>
+				<description>Iktotchi are a species of near-humans distinguished by two large, curved horns protruding downwards from their heads, with reddish skin tones. Their skin is dense and hardened, making them tough in a fight.</description>
+				<descriptionShort>Iktotchi are a species of near-humans distinguished by two large, curved horns protruding downwards from their heads, with reddish skin tones.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Iktotchi</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>PsychicAbility_Enhanced</li>
+					<li>Turn_Gene_FastNeuralHeat</li>
+					<li>Turn_Gene_Duelist</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos4Metabolism</li>
+					<li>OuterRim_IktotchiHead</li>
+					<li>Body_Standard</li>
+					<li>Body_Hulk</li>
+					<li>Skin_DeepRed</li>
+					<li>Skin_PaleRed</li>
+					<li>Skin_Melanin5</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>Outland_ThickSkin</li>
+					<li>AptitudePoor_Mining</li>
+					<li>AptitudePoor_Plants</li>
+					<li>AptitudePoor_Animals</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Iridonian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Iridonian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Iridonian</defName>
+				<label>Iridonian</label>
+				<description>Iridonians are a subspecies of Zabrak from the planet Iridonia, besides having a crown of horns they are largely indistinguishable from humans.</description>
+				<descriptionShort>Iridonians are a subspecies of Zabrak from the planet Iridonia, besides having a crown of horns they are largely indistinguishable from humans.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Iridonian</iconPath>
+				<nameMaker>KoTOR_NamerIridonian</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_FacialRidges_iridonian</li>
+					<li>Turn_Gene_LatentPsychic</li>
+					<li>Turn_Gene_SlowNeuralHeat</li>
+					<li>Turn_Gene_Certain</li>
+					<li>Aggression_Aggressive</li>
+					<li>Turn_Gene_Duelist</li>
+					<li>KindInstinct</li>
+					<li>Pain_Reduced</li>
+					<li>Outland_LowFertility</li>
+					<li>Outland_DeceleratedPregnancy</li>
+					<li>Hair_BaldOnly</li>
+					<li>Hair_LongOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos1Metabolism</li>
+					<li>Body_Standard</li>
+					<li>OuterRim_ZabrakHorns</li>
+					<li>Outland_ThickSkin</li>
+					<li>AptitudeStrong_Melee</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_iridonian"]</xpath>
+    </Operation>
+
+<!-- Ithorian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Ithorian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Ithorian</defName>
+				<label>Ithorian</label>
+				<description>Ithorians are a sentient species from the planet Ithor, having two mouths either side of their long necks giving them a deep, rumbling voice. Most Ithorians have a peaceful nature, being pacifistic to such a degree they often exile violent individuals from their homeworld entirely. They lack the ability to speak languages most of the galaxy do, relying on translator devices to communicate with those who do not know their language.</description>
+				<descriptionShort>Ithorians are a sentient species from the planet Ithor, having two mouths either side of their long necks giving them a deep, rumbling voice.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Ithorian</iconPath>
+				<nameMaker>KoTOR_NamerSullustan</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_BodySizeGene_big</li>
+					<li>Immunity_Weak</li>
+					<li>Turn_Gene_HerdMentality</li>
+					<li>BS_Diet_Herbivore</li>
+					<li>Aggression_DeadCalm</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos7Metabolism</li>
+					<li>OuterRim_IthorianHead</li>
+					<li>Body_Standard</li>
+					<li>Body_Hulk</li>
+					<li>Skin_PaleRed</li>
+					<li>Outland_Skin_DeepSage</li>
+					<li>Outland_Skin_DeepAzure</li>
+					<li>Outland_Skin_DeepBrown</li>
+					<li>Outland_Skin_Brown</li>
+					<li>ElongatedFingers</li>
+					<li>RobustDigestion</li>
+					<li>Outland_Scalebody</li>
+					<li>Outland_DeceleratedMaturation</li>
+					<li>Outland_UnusualSpeech</li>
+					<li>AptitudeRemarkable_Plants</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_ithorian"]</xpath>
+    </Operation>
+
+<!-- Jawa -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Jawa"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Jawa</defName>
+				<label>Jawa</label>
+				<description>Jawas are a species from the plant Tatooine, they are short furry humanoids with glowing orange eyes. Jawas are known for often migrating off-world to other similar climate worlds to scavenge everything that isn't nailed down.</description>
+				<descriptionShort>Jawas are a species from the plant Tatooine, they are short furry humanoids with glowing orange eyes.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Jawa</iconPath>
+				<nameMaker>KoTOR_NamerJawa</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_BodySizeGene_smaller</li>
+					<li>WoundHealing_Slow</li>
+					<li>Superclotting</li>
+					<li>MaxTemp_LargeIncrease</li>
+					<li>MeleeDamage_Weak</li>
+					<li>Turn_Gene_Terrified</li>
+					<li>Pain_Extra</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Chest_Fur</li>
+					<li>Outland_Pos1Metabolism</li>
+					<li>Body_Standard</li>
+					<li>Hair_DarkBlack</li>
+					<li>Skin_InkBlack</li>
+					<li>guy762_Eyes_HugeYellow</li>
+					<li>Outland_Blood_Gray</li>
+					<li>DarkVision</li>
+					<li>Hair_Grayless</li>
+					<li>AptitudeTerrible_Melee</li>
+					<li>AptitudeRemarkable_Crafting</li>
+					<li>AptitudeStrong_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_jawa"]</xpath>
+    </Operation>
+
+<!-- Kaleesh -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Kaleesh"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Kaleesh</defName>
+				<label>Kaleesh</label>
+				<description>Kaleesh are a reptillian species from the planet Kelee, typically known to be formidable warriors, frequently found wearing masks crafted from the skulls of beasts from their homeworld.</description>
+				<descriptionShort>Kaleesh are a reptillian species from the planet Kelee, typically known to be formidable warriors, frequently found wearing masks crafted from the skulls of beasts from their homeworld.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Kaleesh</iconPath>
+				<nameMaker>KoTOR_NamerNagai</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_HeadAttachment_kaleeshmask</li>
+					<li>guy762_butchergene_lizardskin</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>Turn_Gene_Certain</li>
+					<li>Aggression_Aggressive</li>
+					<li>Turn_Gene_Duelist</li>
+					<li>Hair_BaldOnly</li>
+					<li>Hair_LongOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos3Metabolism</li>
+					<li>Outland_ChinHorns</li>
+					<li>Outland_JawTusks</li>
+					<li>Outland_EyeVisual_Recessed</li>
+					<li>Outland_Nose_NoseSlits</li>
+					<li>Body_Thin</li>
+					<li>Hair_DarkReddish</li>
+					<li>Hair_MidBlack</li>
+					<li>Hair_DarkBlack</li>
+					<li>Hair_InkBlack</li>
+					<li>Skin_DeepRed</li>
+					<li>Outland_Ears_Akhkharu</li>
+					<li>Outland_Eye_Yellow</li>
+					<li>Outland_ScaleSkin</li>
+					<li>AptitudeStrong_Shooting</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_kaleesh"]</xpath>
+    </Operation>
+
+<!-- Kaleesh -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Kaminoan"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Kaminoan</defName>
+				<label>kaminoan</label>
+				<description>Kaminoans are a tall, thin, amphibian species from the aquatic planet Kamino. They specilise in cloning and genetic engineering, to a level few other civilizations have shown to be capable of. Their slender physique and peaceful nature has the unfortunate effect of them being quite weak and easily harmed in a fight.</description>
+				<descriptionShort>TODO</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Kaminoan</iconPath>
+				<combatPowerFactor>0.8</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_BodySizeGene_bigger</li>
+					<li>Turn_Gene_Certain</li>
+					<li>Turn_Gene_BiosculptAccelerated</li>
+					<li>Turn_Gene_BiosculptNeed</li>
+					<li>Aggression_DeadCalm</li>
+					<li>MeleeDamage_Weak</li>
+					<li>Pain_Extra</li>
+					<li>Outland_LowFertility</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_KaminoanHead</li>
+					<li>Body_Thin</li>
+					<li>Skin_SheerWhite</li>
+					<li>ElongatedFingers</li>
+					<li>Outland_FamiliarScent</li>
+					<li>AptitudeStrong_Medicine</li>
+					<li>AptitudeStrong_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Kaleesh -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_keldor"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_keldor</defName>
+				<label>Kel Dor</label>
+				<description>.</description>
+				<descriptionShort>.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon5</iconPath>
+				<nameMaker>KoTOR_NamerDuros</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Ears_weirdflap</li>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>guy762_Mouth_sus</li>
+					<li>guy762_HeadAttachment_keldormask</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>guy762_lifespan_double</li>
+					<li>Immunity_Weak</li>
+					<li>PsychicAbility_Enhanced</li>
+					<li>Turn_Gene_LatentPsychic</li>
+					<li>Turn_Gene_MeditationNeed</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Head_Gaunt</li>
+					<li>guy762_Skin_PaleOrange</li>
+					<li>Hands_Pig</li>
+					<li>Outland_ThickSkin</li>
+					<li>AptitudeStrong_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Klatoonian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_klatoonian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_klatoonian</defName>
+				<label>Klatoonian</label>
+				<description>Klatooinians possessed a strong build, which made them useful laborers. Klatooinians' skin color ranged from green to brown, and they had green blood. Their natural habitat was a desert or wasteland. They were distinguishable through their prominent brows and visible teeth.</description>
+				<descriptionShort>Klatooinians possessed a strong build, which made them useful laborers. Klatooinians' skin color ranged from green to brown, and they had green blood. Their natural habitat was a desert or wasteland. They were distinguishable through their prominent brows and visible teeth.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon9</iconPath>
+				<nameMaker>KoTOR_NamerKlatoonian</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.2</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>guy762_statgene_compliant</li>
+					<li>guy762_Face_jowls</li>
+					<li>guy762_Nose_Dog</li>
+					<li>MaxTemp_SmallIncrease</li>
+					<li>Robust</li>
+					<li>Outland_EggLayer</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Brow_Heavy</li>
+					<li>Jaw_Heavy</li>
+					<li>Body_Hulk</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>guy762_Skin_PaleOrange</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>Outland_Blood_Green</li>
+					<li>AptitudeStrong_Shooting</li>
+					<li>AptitudeStrong_Melee</li>
+					<li>AptitudeTerrible_Medicine</li>
+					<li>AptitudeTerrible_Social</li>
+					<li>AptitudeTerrible_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Kubaz -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_kubaz"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_kubaz</defName>
+				<label>Kubaz</label>
+				<description>e</description>
+				<descriptionShort>e</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon6</iconPath>
+				<nameMaker>KoTOR_NamerKubaz</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_butchergene_insectmeat</li>
+					<li>guy762_Head_kubaz</li>
+					<li>PsychicAbility_Dull</li>
+					<li>BS_Diet_Carnivore</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos4Metabolism</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>Skin_SlateGray</li>
+					<li>Eyes_Gray</li>
+					<li>Outland_Voice_Insect</li>
+					<li>RobustDigestion</li>
+					<li>DarkVision</li>
+					<li>Outland_InsectBody</li>
+					<li>Outland_FamiliarScent</li>
+					<li>AptitudeStrong_Artistic</li>
+					<li>AptitudeStrong_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Lasat -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_lasat"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_lasat</defName>
+				<label>Lasat</label>
+				<description>e</description>
+				<descriptionShort>e</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon10</iconPath>
+				<nameMaker>KoTOR_NamerLasat</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.4</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_AbilityGene_JumpLegs</li>
+					<li>guy762_Beard_Chops</li>
+					<li>guy762_BodySizeGene_bigger</li>
+					<li>MoveSpeed_Quick</li>
+					<li>BS_Diet_Carnivore</li>
+					<li>GS_Eyes_Yellow</li>
+					<li>Outland_Chest_Fur</li>
+					<li>Outland_BaldMale</li>
+					<li>Outland_Pos3Metabolism</li>
+					<li>OuterRim_CatharHead</li>
+					<li>Body_Standard</li>
+					<li>Body_Hulk</li>
+					<li>Hair_DarkBlack</li>
+					<li>guy762_Hair_DarkBlue</li>
+					<li>Outland_HairColor_DarkPurple</li>
+					<li>guy762_Skin_Lavender</li>
+					<li>guy762_Skin_SlateBlue</li>
+					<li>Ears_Pointed</li>
+					<li>guy762_Eyes_BigYellow</li>
+					<li>guy762_Eyes_BigGreen</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Mandalorian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="Hussar"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>Hussar</defName>
+				<label>Mandalorian</label>
+				<description>e</description>
+				<descriptionShort>e</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>WoundHealing_SuperFast</li>
+					<li>PsychicAbility_Dull</li>
+					<li>MinTemp_SmallDecrease</li>
+					<li>MaxTemp_SmallIncrease</li>
+					<li>Aggression_HyperAggressive</li>
+					<li>Pain_Reduced</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>Body_Standard</li>
+					<li>Body_Hulk</li>
+					<li>DarkVision</li>
+					<li>Unstoppable</li>
+					<li>Outland_Evasive</li>
+					<li>AptitudeRemarkable_Shooting</li>
+					<li>AptitudeRemarkable_Melee</li>
+					<li>AptitudeTerrible_Cooking</li>
+					<li>AptitudeTerrible_Plants</li>
+					<li>AptitudeTerrible_Animals</li>
+					<li>AptitudeTerrible_Artistic</li>
+					<li>AptitudeTerrible_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Mimbanese -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_mimbanese"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_mimbanese</defName>
+				<label>Mimbanese</label>
+				<description>e</description>
+				<descriptionShort>e</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+				<nameMaker>KoTOR_NamerMimbanese</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>guy762_FacialRidges_broad</li>
+					<li>guy762_Eyes_Big</li>
+					<li>guy762_Brow_Ridged</li>
+					<li>Aggression_Aggressive</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>Body_Standard</li>
+					<li>Body_Thin</li>
+					<li>Skin_DeepRed</li>
+					<li>DarkVision</li>
+					<li>GS_Primitive</li>
+					<li>AptitudeStrong_Shooting</li>
+					<li>AptitudeStrong_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Miraluka -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Miraluka"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Miraluka</defName>
+				<label>Miraluka</label>
+				<description>Miraluka are near-humans that are almost completely indistiguishable from humans aside from a lack of visible eyes. Despite this lack of physical sight they can still 'see' perfectly well, possibly even better than others, through an inherent force connection allowing them to see through the force itself. Miraluka often wear coverings over the vestigial eyes, as the sight often makes other races uncomfortable.</description>
+				<descriptionShort>Miraluka are near-humans that are almost completely indistiguishable from humans aside from a lack of visible eyes. Despite this lack of physical sight they can still 'see' perfectly well.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Miraluka</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Immunity_Weak</li>
+					<li>Turn_Gene_LatentPsychic</li>
+					<li>Aggression_DeadCalm</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>OuterRim_MiralukaHead</li>
+					<li>Hair_SnowWhite</li>
+					<li>Hair_Gray</li>
+					<li>OuterRim_ForceSight</li>
+					<li>Outland_Evasive</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_miraluka"]</xpath>
+    </Operation>
+	
+<!-- Mirialan -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Mirialan"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Mirialan</defName>
+				<label>mirialan</label>
+				<description>Mirialans are a near-human species from the planet Mirial. They typically have green or purple skin tones, with geometric markings symbolizing personal achievements. Mirialans do not really differ from humans beyond that.</description>
+				<descriptionShort>Mirialans are a near-human species from the planet Mirial.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Mirialan</iconPath>
+				<nameMaker>KoTOR_NamerMirialan</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>PsychicAbility_Enhanced</li>
+					<li>MinTemp_SmallIncrease</li>
+					<li>MaxTemp_SmallIncrease</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>OuterRim_MirialanHead</li>
+					<li>Body_Standard</li>
+					<li>Hair_DarkSaturatedReddish</li>
+					<li>Hair_DarkBlack</li>
+					<li>Outland_HairColor_BrightSage</li>
+					<li>Outland_HairColor_BrightPurple</li>
+					<li>Skin_DeepYellow</li>
+					<li>Outland_Skin_Yellow</li>
+					<li>Outland_Skin_Lime</li>
+					<li>Outland_Skin_PaleLime</li>
+					<li>Outland_Skin_PaleSage</li>
+					<li>Outland_Skin_DeepViridian</li>
+					<li>Outland_Skin_DeepAzure</li>
+					<li>Outland_Skin_Azure</li>
+					<li>Outland_Skin_PalePurple</li>
+					<li>Hair_Grayless</li>
+					<li>Outland_Empathic</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_mirialan"]</xpath>
+    </Operation>
+
+<!-- MonCalamari -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_MonCalamari"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_MonCalamari</defName>
+				<label>Mon Calamari</label>
+				<description>Mon Calamari are a humanoid aquatic species from the planet Mon Cala, which they share with the Quarren species. They are easily recognised by their large high-domes heads with goggle-like eyes sticking out either side.</description>
+				<descriptionShort>Mon Calamari are a humanoid aquatic species from the planet Mon Cala, which they share with the Quarren species.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_MonCalamari</iconPath>
+				<nameMaker>KoTOR_NamerQuarren</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>MinTemp_SmallIncrease</li>
+					<li>MaxTemp_SmallDecrease</li>
+					<li>Fertile</li>
+					<li>Outland_EggLayer</li>
+					<li>Outland_DeceleratedPregnancy</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_MonCalamariHead</li>
+					<li>Body_Standard</li>
+					<li>Skin_PaleRed</li>
+					<li>Skin_Orange</li>
+					<li>Outland_Skin_PaleBlue</li>
+					<li>Outland_Skin_DeepAzure</li>
+					<li>Outland_Skin_Brown</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>Outland_WebbedFeet</li>
+					<li>AptitudeStrong_Plants</li>
+					<li>AptitudeStrong_Animals</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_moncal"]</xpath>
+    </Operation>
+
+<!-- Muun -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="Genie"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>Genie</defName>
+				<label>Muun</label>
+				<description>Mon Calamari are a humanoid aquatic species from the planet Mon Cala, which they share with the Quarren species. They are easily recognised by their large high-domes heads with goggle-like eyes sticking out either side.</description>
+				<descriptionShort>Mon Calamari are a humanoid aquatic species from the planet Mon Cala, which they share with the Quarren species.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Genie</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Body_gaunt</li>
+					<li>guy762_BodySizeGene_bigger</li>
+					<li>Aggression_DeadCalm</li>
+					<li>Delicate</li>
+					<li>Pain_Extra</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Head_Gaunt</li>
+					<li>Body_Thin</li>
+					<li>guy762_Skin_MidGray</li>
+					<li>Skin_LightGray</li>
+					<li>Outland_Skin_Limestone</li>
+					<li>Outland_Skin_Silver</li>
+					<li>ElongatedFingers</li>
+					<li>AptitudePoor_Plants</li>
+					<li>AptitudePoor_Animals</li>
+					<li>AptitudeRemarkable_Crafting</li>
+					<li>AptitudeTerrible_Social</li>
+					<li>AptitudeRemarkable_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Nagai -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_nagai"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_nagai</defName>
+				<label>Nagai</label>
+				<description>Tall and agile, the Nagai originate from a dwarf galaxy in Wild Space. They are an aggressive, honor-bound people.</description>
+				<descriptionShort>Tall and agile, the Nagai originate from a dwarf galaxy in Wild Space. They are an aggressive, honor-bound people.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon4</iconPath>
+				<nameMaker>KoTOR_NamerNagai</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Body_gaunt</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>Aggression_Aggressive</li>
+					<li>Turn_Gene_FreeSpirit</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_SvelteHead</li>
+					<li>Body_Thin</li>
+					<li>Hair_InkBlack</li>
+					<li>Skin_SheerWhite</li>
+					<li>Ears_Pointed</li>
+					<li>Eyes_Gray</li>
+					<li>Outland_Evasive</li>
+					<li>AptitudeStrong_Melee</li>
+					<li>AptitudeStrong_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Nautolan -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_nautolan"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_nautolan</defName>
+				<label>Nautolan</label>
+				<description>Nautolans were amphibious, capable of breathing both air and water. They were known to be capable of surviving in extreme environments. Their skin could be green, blue, gray, purple, orange, or yellow, with red or green blood. One of their most notable features were their large, dark eyes, which were a product of evolution; through these eyes, they could spot details in lightless oceans.</description>
+				<descriptionShort>Nautolans were amphibious, capable of breathing both air and water. They were known to be capable of surviving in extreme environments. Their skin could be green, blue, gray, purple, orange, or yellow, with red or green blood. One of their most notable features were their large, dark eyes, which were a product of evolution; through these eyes, they could spot details in lightless oceans.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+				<nameMaker>KoTOR_NamerNautolan</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Headbone_nautolan</li>
+					<li>guy762_Eyes_Big</li>
+					<li>MaxTemp_SmallDecrease</li>
+					<li>Pain_Reduced</li>
+					<li>Outland_EggLayer</li>
+					<li>Beauty_Pretty</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>Outland_SvelteHead</li>
+					<li>Body_Standard</li>
+					<li>Skin_Orange</li>
+					<li>Outland_Skin_PaleOrange</li>
+					<li>Outland_Skin_PaleLime</li>
+					<li>Outland_Skin_DeepGreen</li>
+					<li>Outland_Skin_DeepViridian</li>
+					<li>Outland_Skin_Viridian</li>
+					<li>Outland_Skin_Azure</li>
+					<li>Outland_Skin_PaleAzure</li>
+					<li>Outland_WebbedFeet</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Neimoidian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Neimoidian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Neimoidian</defName>
+				<label>Neimoidian</label>
+				<description>Neimoidians are a humanoid species from the planet Neimoidia, known for their expansive wealth among their colonies. They have smooth noseless faces with mottled green skin tones and large orange eyes.</description>
+				<descriptionShort>Neimoidians are a humanoid species from the planet Neimoidia.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Neimoidian</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_butchergene_lizardskin</li>
+					<li>Turn_Gene_Terrified</li>
+					<li>Outland_EggLayer</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>FacialRidges</li>
+					<li>OuterRim_DurosHead</li>
+					<li>Body_Thin</li>
+					<li>Outland_Skin_DeepGreen</li>
+					<li>Skin_Green</li>
+					<li>Outland_Skin_PaleGreen</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>Skin_LightGray</li>
+					<li>guy762_Eyes_HugeRed</li>
+					<li>ElongatedFingers</li>
+					<li>Outland_Blood_Brown</li>
+					<li>Outland_Scalebody</li>
+					<li>AptitudePoor_Melee</li>
+					<li>AptitudeStrong_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_nemoidian"]</xpath>
+    </Operation>
+
+<!-- Nelvaanian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_nelvaanian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_nelvaanian</defName>
+				<label>Nelvaanian</label>
+				<description>Nelvaanians are a blue furred race of lupine humanoids distinguishable by their long snouts, sharp, canine-like teeth, and pointed ears. Their fingers possess sharpened claws as well as their feet. Befitting their lupine similarity, they also possess a keen sense of smell and acute hearing that is purported to be able to detect a creature's movement from a mile away</description>
+				<descriptionShort>Nelvaanians are a blue furred race of lupine humanoids distinguishable by their long snouts, sharp, canine-like teeth, and pointed ears. Their fingers possess sharpened claws as well as their feet. Befitting their lupine similarity, they also possess a keen sense of smell and acute hearing that is purported to be able to detect a creature's movement from a mile away.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon10</iconPath>
+				<nameMaker>KoTOR_NamerNelvaanian</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Eyes_Big</li>
+					<li>guy762_statgene_predator</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>NakedSpeed</li>
+					<li>MinTemp_LargeDecrease</li>
+					<li>MaxTemp_SmallDecrease</li>
+					<li>Hair_LongOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_BothanHead</li>
+					<li>Body_Standard</li>
+					<li>Body_Thin</li>
+					<li>Body_Hulk</li>
+					<li>Hair_InkBlack</li>
+					<li>guy762_Skin_SlateBlue</li>
+					<li>Outland_Ears_FlatPointed</li>
+					<li>GS_Primitive</li>
+					<li>Outland_UnusualSpeech</li>
+					<li>AptitudePoor_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Nikto -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Nikto"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Nikto</defName>
+				<label>Nikto</label>
+				<description>Nikto are a humanoid species from the planet Kintan, they are distinguished by their scaly coarse skin, horns and spikes. Many Nikto them are employed as enforcers through the galaxy and many more make their way as pirate clans.</description>
+				<descriptionShort>Nikto are a humanoid species from the planet Kintan.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Nikto</iconPath>
+				<nameMaker>KoTOR_NamerNikto</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_statgene_predator</li>
+					<li>guy762_butchergene_lizardskin</li>
+					<li>MaxTemp_SmallIncrease</li>
+					<li>Aggression_Aggressive</li>
+					<li>Outland_EggLayer</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_NiktoHead</li>
+					<li>Body_Standard</li>
+					<li>Body_Hulk</li>
+					<li>guy762_Skin_SlateRed</li>
+					<li>guy762_Skin_SlateBlue</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>guy762_Skin_MidGray</li>
+					<li>Skin_LightGray</li>
+					<li>Outland_Scalebody</li>
+					<li>Outland_Evasive</li>
+					<li>AptitudeTerrible_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_nikto"]</xpath>
+    </Operation>
+
+<!-- Ortolan -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_gamorrean"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_gamorrean</defName>
+				<label>Ortolan</label>
+				<description>Ortolans are a small, humanoid species known for their round, bulbous heads, and distinctive, oversized ears.</description>
+				<descriptionShort>Ortolans are a small, humanoid species known for their round, bulbous heads, and distinctive, oversized ears.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Pigskin</iconPath>
+				<nameMaker>KoTOR_NamerGamorrean</nameMaker>
+				<combatPowerFactor>1.0</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Eyes_Big</li>
+						<li>guy762_Head_kubaz</li>
+						<li>Immunity_Strong</li>
+						<li>MinTemp_LargeDecrease</li>
+						<li>Hair_BaldOnly</li>
+						<li>Beard_NoBeardOnly</li>
+						<li>Body_Fat</li>
+						<li>Body_Hulk</li>
+						<li>Skin_Blue</li>
+						<li>Outland_Skin_PaleAzure</li>
+						<li>Ears_Floppy</li>
+						<li>Hands_Pig</li>
+						<li>StrongStomach</li>
+						<li>RobustDigestion</li>
+						<li>Learning_Slow</li>
+						<li>Nearsighted</li>
+						<li>AptitudePoor_Cooking</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Pantoran -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Pantoran"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Pantoran</defName>
+				<label>Pantoran</label>
+				<description>Pantorans are a blue skinned near-human species from the moon Pantora, they commonly have golden facial markings distinguishing them from other races. Aside from their appearance they stand out being capable of surviving in lower temperatures than most races.</description>
+				<descriptionShort>Pantorans are a blue skinned near-human species from the moon Pantora, they commonly have golden facial markings distinguishing them from other races.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Pantoran</iconPath>
+				<nameMaker>KoTOR_NamerPantoran</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>MinTemp_LargeDecrease</li>
+					<li>MaxTemp_SmallDecrease</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>OuterRim_PantoranHead</li>
+					<li>Body_Standard</li>
+					<li>Hair_SnowWhite</li>
+					<li>guy762_Hair_DarkBlue</li>
+					<li>guy762_Hair_Lavender</li>
+					<li>Hair_Pink</li>
+					<li>Hair_BrightRed</li>
+					<li>Outland_HairColor_BrightAzure</li>
+					<li>Skin_Blue</li>
+					<li>Hair_Grayless</li>
+					<li>AptitudeStrong_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_pantoran"]</xpath>
+    </Operation>
+
+<!-- Pyke -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Pyke"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Pyke</defName>
+				<label>Pyke</label>
+				<description>Pykes are a species of humanoids from the planet Oba Diah, they're distinguished by their unsettlingly large heads and undersized faces. A criminal organisation in the galaxy known as the Pyke Syndicate is exclusively composed of Pykes, making it a common stereotype to assume that a Pyke can get you some spice.</description>
+				<descriptionShort>Pykes are a species of humanoids from the planet Oba Diah, they're distinguished by their unsettlingly large heads and undersized faces.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Pyke</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Body_gaunt</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>Immunity_Weak</li>
+					<li>WoundHealing_Slow</li>
+					<li>Aggression_Aggressive</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_PykeHead</li>
+					<li>Outland_Skin_Sage</li>
+					<li>Outland_Skin_PaleBlue</li>
+					<li>Skin_LightGray</li>
+					<li>Turn_Gene_MotivationLow</li>
+					<li>AptitudeStrong_Shooting</li>
+					<li>AddictionResistant_Alcohol</li>
+					<li>AddictionResistant_GoJuice</li>
+					<li>AddictionResistant_Psychite</li>
+					<li>AddictionResistant_Smokeleaf</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Quarren -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Quarren"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Quarren</defName>
+				<label>Quarren</label>
+				<description>Quarren are a humanoid aquatic species from the planet Mon Cala, which they share with the Mon Calamari species. They are easily distinguished by their squid-like appearance.</description>
+				<descriptionShort>Quarren are a humanoid aquatic species from the planet Mon Cala, which they share with the Mon Calamari species.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Quarren</iconPath>
+				<nameMaker>KoTOR_NamerQuarren</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_AbilityGene_inkspray</li>
+					<li>MinTemp_SmallDecrease</li>
+					<li>MaxTemp_SmallDecrease</li>
+					<li>Outland_EggLayer</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos1Metabolism</li>
+					<li>OuterRim_QuarrenHead</li>
+					<li>Body_Standard</li>
+					<li>Skin_Melanin3</li>
+					<li>guy762_Skin_PaleOrange</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>Outland_Eye_Cyan</li>
+					<li>Hands_Pig</li>
+					<li>Outland_WebbedFeet</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_quarren"]</xpath>
+    </Operation>
+
+<!-- Rodian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Rodian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Rodian</defName>
+				<label>Rodian</label>
+				<description>Rodians are a reptillian species from the planet Rodia, their large eyes capable of seeing in the infrared spectrum combined with using their antennae to detect vibrations makes them particularly capable in the dark.</description>
+				<descriptionShort>Rodians are a reptillian species from the planet Rodia, their large eyes capable of seeing in the infrared spectrum combined with using their antennae to detect vibrations makes them particularly capable in the dark.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Rodian</iconPath>
+				<nameMaker>KoTOR_NamerRodian</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_butchergene_insectmeat</li>
+					<li>guy762_Headbone_rodian</li>
+					<li>guy762_Eyes_Big</li>
+					<li>guy762_butchergene_lizardskin</li>
+					<li>MinTemp_SmallIncrease</li>
+					<li>Outland_EggLayer</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_DistinctCheekbones</li>
+					<li>Outland_LongMouth</li>
+					<li>Body_Standard</li>
+					<li>Body_Thin</li>
+					<li>Skin_PaleRed</li>
+					<li>Skin_Green</li>
+					<li>Outland_Skin_DeepSage</li>
+					<li>Outland_Skin_Sage</li>
+					<li>Outland_Skin_DeepViridian</li>
+					<li>Outland_Skin_DeepBlue</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>Outland_Ears_Curved</li>
+					<li>DarkVision</li>
+					<li>Outland_ScaleSkin</li>
+					<li>Outland_FamiliarScent</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_rodian"]</xpath>
+    </Operation>
+
+<!-- Selkath -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Selkath"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Selkath</defName>
+				<label>Selkath</label>
+				<description>Selkath are a species of aquatic humanoids from the planet Manaan, they're most comfortable underwater and prefer to be immersed in liquid but those away from their homeworld don't often find themselves in a situation they can do so. Most consider the Selkath to be a peaceful and helpful people, due to their devotion to preserving their native oceans and taking care of the ill.</description>
+				<descriptionShort>Selkath are a species of aquatic humanoids from the planet Manaan.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Selkath</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Beard_fishmouth</li>
+					<li>guy762_Head_selkath</li>
+					<li>guy762_BodySizeGene_small</li>
+					<li>Superclotting</li>
+					<li>MaxTemp_SmallDecrease</li>
+					<li>Aggression_DeadCalm</li>
+					<li>Outland_EggLayer</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos1Metabolism</li>
+					<li>Body_Standard</li>
+					<li>Body_Hulk</li>
+					<li>Skin_DeepYellow</li>
+					<li>Skin_Blue</li>
+					<li>Outland_Skin_DeepAzure</li>
+					<li>guy762_Skin_MidGray</li>
+					<li>Skin_SlateGray</li>
+					<li>Skin_LightGray</li>
+					<li>Hands_Pig</li>
+					<li>Outland_WebbedFeet</li>
+					<li>Outland_Scalebody</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_selkath"]</xpath>
+    </Operation>
+
+<!-- Sith Variants -->
+	<!-- Massassi -->
+		<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_yoder"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_yoder</defName>
+				<label>Sith Massassi</label>
+				<description>Massassi are a subspecies of the Sith race,known for being fierce hulking warriors.</description>
+				<descriptionShort>Massassi are a subspecies of the Sith race,known for being fierce hulking warriors.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Sith</iconPath>
+				<nameMaker>NamerPersonPureblood</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.5</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_BodySizeGene_big</li>
+					<li>Superclotting</li>
+					<li>Turn_Gene_LatentPsychic</li>
+					<li>Aggression_Aggressive</li>
+					<li>MeleeDamage_Strong</li>
+					<li>Robust</li>
+					<li>Pain_Reduced</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_FaceTendrils</li>
+					<li>Head_Bone</li>
+					<li>Body_Hulk</li>
+					<li>Outland_Skin_Red</li>
+					<li>Skin_PaleRed</li>
+					<li>Outland_Skin_DeepOrange</li>
+					<li>Skin_Orange</li>
+					<li>Outland_Eye_Yellow</li>
+					<li>Unstoppable</li>
+					<li>Outland_RidgedSkin</li>
+					<li>Outland_FamiliarScent</li>
+					<li>Outland_ThickSkin</li>
+					<li>AptitudeRemarkable_Melee</li>
+					<li>AptitudeTerrible_Cooking</li>
+					<li>AptitudeTerrible_Plants</li>
+					<li>AptitudeTerrible_Crafting</li>
+					<li>AptitudeTerrible_Artistic</li>
+					<li>AptitudeTerrible_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Kissai -->
+		<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Sith"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Sith</defName>
+				<label>Sith Kissai</label>
+				<description>Kissai are a subspecies of the Sith race, known for dark side sorcery they were fierce warriors with dark magics.</description>
+				<descriptionShort>Kissai are a subspecies of the Sith race, known for dark side sorcery they were fierce warriors with dark magics.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Sith</iconPath>
+				<nameMaker>NamerPersonPureblood</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.25</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>PsychicAbility_Extreme</li>
+					<li>Turn_Gene_LatentPsychic</li>
+					<li>Turn_Gene_MeditationNeed</li>
+					<li>Turn_Gene_Duelist</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos4Metabolism</li>
+					<li>Head_Bone</li>
+					<li>Body_Standard</li>
+					<li>Skin_DeepRed</li>
+					<li>Outland_Eye_Yellow</li>
+					<li>Outland_RidgedSkin</li>
+					<li>Outland_FamiliarScent</li>
+					<li>Outland_ThickSkin</li>
+					<li>AptitudeTerrible_Mining</li>
+					<li>AptitudeTerrible_Cooking</li>
+					<li>AptitudePoor_Plants</li>
+					<li>AptitudeStrong_Medicine</li>
+					<li>AptitudeStrong_Social</li>
+					<li>AptitudeStrong_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Zugurak -->
+		<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_sith"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Massassi</defName>
+				<label>Sith Zugurak</label>
+				<description>Zugurak are a subspecies of the Sith race, known their engineering skills.</description>
+				<descriptionShort>Zugurak are a subspecies of the Sith race, known their engineering skills</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Sith</iconPath>
+				<nameMaker>NamerPersonPureblood</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.15</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>WoundHealing_Slow</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_FaceTendrils</li>
+					<li>Head_Gaunt</li>
+					<li>Body_Standard</li>
+					<li>Outland_Skin_DeepBrown</li>
+					<li>Outland_Skin_Brown</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>guy762_Skin_PaleOrange</li>
+					<li>Outland_Eye_Yellow</li>
+					<li>ElongatedFingers</li>
+					<li>Outland_RidgedSkin</li>
+					<li>Outland_FamiliarScent</li>
+					<li>AptitudePoor_Melee</li>
+					<li>AptitudeStrong_Construction</li>
+					<li>AptitudeStrong_Mining</li>
+					<li>AptitudeStrong_Cooking</li>
+					<li>AptitudePoor_Animals</li>
+					<li>AptitudeStrong_Artistic</li>
+					<li>AptitudePoor_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Snivvian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_snivvian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_snivvian</defName>
+				<label>Snivvian</label>
+				<description>Snivvians were mammalian humanoids distinguishable by their large nostrils and their protruding lower jaws, with two small tusks. Their hair color varied between brown and black, but they possessed a larger variation of skin and eye colors.</description>
+				<descriptionShort>Snivvians were mammalian humanoids distinguishable by their large nostrils and their protruding lower jaws, with two small tusks. Their hair color varied between brown and black, but they possessed a larger variation of skin and eye colors.</descriptionShort>
+				<nameMaker>KoTOR_NamerSnivvian</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Face_tusks</li>
+					<li>guy762_BodySizeGene_small</li>
+					<li>MinTemp_SmallDecrease</li>
+					<li>Hair_ShortOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Nose_Pig</li>
+					<li>Jaw_Heavy</li>
+					<li>Hair_DarkBrown</li>
+					<li>Hair_DarkSaturatedReddish</li>
+					<li>Hair_DarkReddish</li>
+					<li>Hair_MidBlack</li>
+					<li>Hair_DarkBlack</li>
+					<li>Skin_LightGray</li>
+					<li>AptitudeRemarkable_Artistic</li>
+					<li>AptitudeTerrible_Medicine</li>
+					<li>AptitudeTerrible_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Sullustan -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Sullustan"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Sullustan</defName>
+				<label>Sullustan</label>
+				<description>Sullustans are a species of humanoids from the planet Sullust, experts in manufacturing, scientific and technological development. The majority of the species lives in subterranean cities, with their large eyes being well adapted to the dark.</description>
+				<descriptionShort>Sullustans are a species of humanoids from the planet Sullust, experts in manufacturing, scientific and technological development.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Sullustan</iconPath>
+				<nameMaker>KoTOR_NamerSullustan</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_BodySizeGene_small</li>
+					<li>Mood_Optimist</li>
+					<li>KindInstinct</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos1Metabolism</li>
+					<li>OuterRim_SullustanHead</li>
+					<li>Body_Standard</li>
+					<li>Skin_Melanin3</li>
+					<li>Skin_Melanin2</li>
+					<li>Skin_Melanin4</li>
+					<li>Outland_Ears_Large</li>
+					<li>DarkVision</li>
+					<li>AptitudeTerrible_Melee</li>
+					<li>AptitudeStrong_Construction</li>
+					<li>AptitudeStrong_Mining</li>
+					<li>AptitudeTerrible_Plants</li>
+					<li>AptitudeStrong_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_sullustan"]</xpath>
+    </Operation>
+
+<!-- Taung -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_taung"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_taung</defName>
+				<label>Taung</label>
+				<description>.</description>
+				<descriptionShort>.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Impid</iconPath>
+				<combatPowerFactor>1.8</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>guy762_Brow_pointy</li>
+					<li>guy762_Headbone_taung</li>
+					<li>guy762_Ears_smallwebbed</li>
+					<li>guy762_statgene_predator</li>
+					<li>guy762_Head_taung</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>Turn_Gene_VerySlowNeuralHeat</li>
+					<li>Aggression_Aggressive</li>
+					<li>MeleeDamage_Strong</li>
+					<li>Turn_Gene_Duelist</li>
+					<li>KillThirst</li>
+					<li>Turn_Gene_FreeSpirit</li>
+					<li>Robust</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Body_Standard</li>
+					<li>guy762_Skin_DarkGreen</li>
+					<li>guy762_Skin_MidGray</li>
+					<li>guy762_Eyes_BigYellow</li>
+					<li>Unstoppable</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Togruta -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Togruta"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Togruta</defName>
+				<label>Togruta</label>
+				<description>Togruta are a humanoid species from the planet Shili, they have colorful skin tones with white markings and large horns with fleshy tails coming down from them known as montrals. Their colorful pigments are a helpful camouflage from predators on their homeworld.</description>
+				<descriptionShort>Togruta are a humanoid species from the planet Shili, they have colorful skin tones with white markings and large horns with fleshy tails coming down from them known as montrals.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Togruta</iconPath>
+				<nameMaker>KoTOR_NamerTogruta</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Turn_Gene_Duelist</li>
+					<li>Beauty_Pretty</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos4Metabolism</li>
+					<li>OuterRim_TogrutaHead</li>
+					<li>Body_Standard</li>
+					<li>Outland_HairColor_BrightRed</li>
+					<li>Outland_HairColor_BrightLime</li>
+					<li>Outland_HairColor_BrightSage</li>
+					<li>Outland_HairColor_DarkBlue</li>
+					<li>Outland_HairColor_BrightBlue</li>
+					<li>Outland_HairColor_BrightPurple</li>
+					<li>Outland_Skin_Red</li>
+					<li>Skin_Orange</li>
+					<li>Skin_Green</li>
+					<li>Outland_Skin_Sage</li>
+					<li>Skin_Blue</li>
+					<li>Outland_Skin_Azure</li>
+					<li>Skin_Purple</li>
+					<li>OuterRim_TogrutaMontrals</li>
+					<li>StrongStomach</li>
+					<li>Hair_Grayless</li>
+					<li>Outland_KindEyes</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_togruta"]</xpath>
+    </Operation>
+
+<!-- Trandoshan -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Trandoshan"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Trandoshan</defName>
+				<label>Trandoshan</label>
+				<description>Trandoshans are a species of reptillian humanoids from the planet Trandosha, widely known as great hunters. They are famously capable of regenerating entire limbs and healing surprisingly fast. They have three fingered hands making it more difficult for them to finely operate equipment. Trandoshans are highly aggressive compared to other races, making them difficult to work with.</description>
+				<descriptionShort>Trandoshans are a species of reptillian humanoids from the planet Trandosha, widely known as great hunters.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Trandoshan</iconPath>
+				<nameMaker>KoTOR_NamerTrandoshan</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>BS_Fast_TotalHealing</li>
+					<li>guy762_statgene_predator</li>
+					<li>guy762_butchergene_lizardskin</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>MinTemp_SmallIncrease</li>
+					<li>MaxTemp_SmallIncrease</li>
+					<li>Aggression_Aggressive</li>
+					<li>Robust</li>
+					<li>Outland_EggLayer</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>OuterRim_TrandoshanHead</li>
+					<li>Body_Standard</li>
+					<li>Body_Hulk</li>
+					<li>Skin_PaleRed</li>
+					<li>Skin_Orange</li>
+					<li>Outland_Skin_PaleOrange</li>
+					<li>Outland_Skin_Yellow</li>
+					<li>Skin_PaleYellow</li>
+					<li>Outland_Skin_Sage</li>
+					<li>Outland_Skin_PaleSage</li>
+					<li>guy762_Skin_MidGray</li>
+					<li>Skin_SlateGray</li>
+					<li>Outland_Scalebody</li>
+					<li>AptitudeStrong_Shooting</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_trandoshan"]</xpath>
+    </Operation>
+
+<!-- Tusken -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Tusken"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Tusken</defName>
+				<label>Tusken</label>
+				<description>Tusken Raiders are humanoids from the planet Tatooine, nomadic and isolationist in nature they travel in tribes. They are often found attacking local settlers, seeing anyone not native to their home as trespassing.\n\nNote: The appearance of Tuskens under their wrappings is not absolutely confirmed by either Canon or Legends, however Legends did show what they looked like in their distant past as Ghorfa and this xenotype is based on that.</description>
+				<descriptionShort>Tusken Raiders are humanoids from the planet Tatooine, nomadic and isolationist in nature they travel in tribes.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Tusken</iconPath>
+				<nameMaker>NamerPersonSandP</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>guy762_Body_gaunt</li>
+					<li>MinTemp_SmallIncrease</li>
+					<li>MaxTemp_LargeIncrease</li>
+					<li>FireTerror</li>
+					<li>Aggression_Aggressive</li>
+					<li>Beauty_Ugly</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Head_Gaunt</li>
+					<li>Outland_Skin_Brown</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>RobustDigestion</li>
+					<li>GS_Primitive</li>
+					<li>Outland_UnusualSpeech</li>
+					<li>AptitudeRemarkable_Shooting</li>
+					<li>AptitudeStrong_Melee</li>
+					<li>AptitudePoor_Construction</li>
+					<li>AptitudePoor_Plants</li>
+					<li>AptitudeRemarkable_Animals</li>
+					<li>AptitudePoor_Intellectual</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_tusken"]</xpath>
+    </Operation>
+
+<!-- Twi'lek -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Twilek"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Twilek</defName>
+				<label>Twi'lek</label>
+				<description>Twi'leks are a near-human species from the planet Ryloth, often found throughout the galaxy as slaves, they are considered one of the most common species in the galaxy. Twi'leks are distinguished easily by their colour variety and smooth, patterned lekku. They have a subtle sexual dimorphism in that the males have pointed human ears and females have cone shaped hearing organs instead.</description>
+				<descriptionShort>Twi'leks are a near-human species from the planet Ryloth, often found throughout the galaxy as slaves, they are considered one of the most common species in the galaxy.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Twilek</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Libido_High</li>
+					<li>Beauty_Pretty</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>OuterRim_TwilekHead</li>
+					<li>Body_Standard</li>
+					<li>Outland_Skin_Yellow</li>
+					<li>Skin_PaleYellow</li>
+					<li>Outland_Skin_PaleLime</li>
+					<li>Outland_Skin_DeepGreen</li>
+					<li>Outland_Skin_DeepViridian</li>
+					<li>Outland_Skin_Viridian</li>
+					<li>Outland_Skin_DeepBlue</li>
+					<li>Skin_Blue</li>
+					<li>Outland_Skin_Azure</li>
+					<li>Outland_Skin_PaleAzure</li>
+					<li>Skin_Purple</li>
+					<li>Outland_Skin_PalePurple</li>
+					<li>Outland_Skin_Magenta</li>
+					<li>Outland_Skin_PaleMagenta</li>
+					<li>Outland_Skin_DeepPink</li>
+					<li>Outland_Skin_Pink</li>
+					<li>guy762_Skin_PaleOrange</li>
+					<li>Turn_Gene_SkinBrightOrange</li>
+					<li>Outland_Blood_Magenta</li>
+					<li>Outland_FamiliarScent</li>
+					<li>Outland_CalmingPheromones</li>
+					<li>Outland_Evasive</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_twilek"]</xpath>
+    </Operation>
+
+<!-- Ugnaught -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_ugnaught"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_ugnaught</defName>
+				<label>Ugnaught</label>
+				<description>.</description>
+				<descriptionShort>.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon9</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_statgene_compliant</li>
+					<li>guy762_Beard_Chops</li>
+					<li>guy762_Face_jowls</li>
+					<li>guy762_Nose_SmallPig</li>
+					<li>guy762_BodySizeGene_smaller</li>
+					<li>guy762_lifespan_double</li>
+					<li>Turn_Gene_Certain</li>
+					<li>Hair_ShortOnly</li>
+					<li>Beard_Always</li>
+					<li>Outland_Pos6Metabolism</li>
+					<li>Jaw_Heavy</li>
+					<li>Body_Hulk</li>
+					<li>Hair_SnowWhite</li>
+					<li>Turn_Gene_MotivationHigh</li>
+					<li>AptitudePoor_Shooting</li>
+					<li>AptitudePoor_Melee</li>
+					<li>AptitudeRemarkable_Construction</li>
+					<li>AptitudeRemarkable_Crafting</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+<!-- Umbaran -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Umbaran"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Umbaran</defName>
+				<label>Umbaran</label>
+				<description>Umbarans are a near-human species from the planet Umbara, distinguished by their pale skin and colorless eyes. They have an innate ability to manipulate others with their social prowess, even leading to rumours that Umbarans have the ability to control minds.</description>
+				<descriptionShort>Umbarans are a near-human species from the planet Umbara, distinguished by their pale skin and colorless eyes.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Umbaran</iconPath>
+				<nameMaker>KoTOR_NamerUmbaran</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Body_gaunt</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos2Metabolism</li>
+					<li>Head_Gaunt</li>
+					<li>Skin_LightGray</li>
+					<li>Outland_Eye_White</li>
+					<li>DarkVision</li>
+					<li>AptitudeStrong_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_umbaran"]</xpath>
+    </Operation>
+
+<!-- Weequay -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="Waster"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>Waster</defName>
+				<label>Weequay</label>
+				<description>Weequay possessed tough, leathery skin resistant to desert environments and blaster fire. Some Weequay grew horns on their lower jaw, while others had bumpy extensions of their skin.</description>
+				<descriptionShort>Weequay possessed tough, leathery skin resistant to desert environments and blaster fire. Some Weequay grew horns on their lower jaw, while others had bumpy extensions of their skin.</descriptionShort>
+				<iconPath>UI/Icons/Xenotypes/Waster</iconPath>
+				<nameMaker>KoTOR_NamerWeequay</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1.2</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_FacialRidges_bumpy</li>
+					<li>guy762_Beard_chinspines</li>
+					<li>Immunity_SuperStrong</li>
+					<li>MinTemp_SmallIncrease</li>
+					<li>ToxicEnvironmentResistance_Total</li>
+					<li>Aggression_Aggressive</li>
+					<li>Pain_Reduced</li>
+					<li>Beauty_Ugly</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Head_Gaunt</li>
+					<li>Body_Standard</li>
+					<li>Hair_Gray</li>
+					<li>Hair_Blonde</li>
+					<li>Hair_DarkBrown</li>
+					<li>Hair_DarkBlack</li>
+					<li>Outland_Skin_Red</li>
+					<li>Outland_Skin_Yellow</li>
+					<li>Outland_Skin_DeepBlue</li>
+					<li>Outland_Skin_Brown</li>
+					<li>guy762_Skin_MidGray</li>
+					<li>PollutionRush</li>
+					<li>Outland_ThickSkin</li>
+					<li>AptitudeStrong_Shooting</li>
+					<li>AptitudeStrong_Melee</li>
+					<li>AptitudeTerrible_Cooking</li>
+					<li>AptitudeTerrible_Plants</li>
+					<li>AptitudeTerrible_Animals</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_weequay"]</xpath>
+    </Operation>
+
+
+<!-- Wookiee -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Wookiee"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Wookiee</defName>
+				<label>Wookiee</label>
+				<description>Wookiees are a species of tall, hairy humanoids from the planet Kashyyyk, they're known for being strong capable warriors and proficient artists. While their homeworld has a temperate climate, covered in swamps and forests, Wookies are perfectly comfortable in much colder conditions without requiring protective clothing.</description>
+				<descriptionShort>Wookiees are a species of tall, hairy humanoids from the planet Kashyyyk, they're known for being strong capable warriors and proficient artists.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Wookiee</iconPath>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Head_wookiee</li>
+					<li>guy762_BodySizeGene_big</li>
+					<li>guy762_lifespan_six</li>
+					<li>NakedSpeed</li>
+					<li>MeleeDamage_Strong</li>
+					<li>Robust</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>Outland_Pos3Metabolism</li>
+					<li>Body_Standard</li>
+					<li>Body_Hulk</li>
+					<li>Hair_Gray</li>
+					<li>Hair_DarkBrown</li>
+					<li>Hair_DarkBlack</li>
+					<li>guy762_Hair_SlateBlue</li>
+					<li>Outland_Skin_Brown</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>VoiceRoar</li>
+					<li>GS_Primitive</li>
+					<li>Furskin</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_wookiee"]</xpath>
+    </Operation>
+
+<!-- Zeltron -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="OuterRim_Zeltron"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>OuterRim_Zeltron</defName>
+				<label>zeltron</label>
+				<description>Zeltrons are a humanoid species easily distinguished by their red skin tones and black/purple hair, otherwise looking like humans. Zeltrons experience the feelings of those around them, especially those they care about.</description>
+				<descriptionShort>Zeltrons are a humanoid species easily distinguished by their red skin tones and black/purple hair, otherwise looking like humans.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Zeltron</iconPath>
+				<nameMaker>KoTOR_NamerZeltron</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>Libido_High</li>
+					<li>Beauty_Pretty</li>
+					<li>Body_Standard</li>
+					<li>Hair_DarkBlack</li>
+					<li>Outland_HairColor_DarkPurple</li>
+					<li>Outland_HairColor_BrightPurple</li>
+					<li>Outland_HairColor_BrightMagenta</li>
+					<li>Skin_PaleRed</li>
+					<li>Hair_Grayless</li>
+					<li>Outland_CalmingPheromones</li>
+					<li>Outland_Empathic</li>
+					<li>Turn_Gene_MotivationLow</li>
+					<li>AptitudeStrong_Social</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+	<!-- Remove duplicate Star Wars Xenotype -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_zeltron"]</xpath>
+    </Operation>
+
+<!-- Zygerrian -->
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/XenotypeDef[defName="guy762_xenotype_zygerrian"]</xpath>
+        <value>
+            <XenotypeDef>
+				<defName>guy762_xenotype_zygerrian</defName>
+				<label>Zygerrian</label>
+				<description>The Zygerrians were a bipedal sentient humanoid species. Feline in appearance, the species possessed strong, angular features and large, pointed ears. Other distinctive features included long fangs that jutted from their jaws and claws that extended from their hands.</description>
+				<descriptionShort>The Zygerrians were a bipedal sentient humanoid species. Feline in appearance, the species possessed strong, angular features and large, pointed ears. Other distinctive features included long fangs that jutted from their jaws and claws that extended from their hands.</descriptionShort>
+				<iconPath>OuterRim/XenotypeIcons/Xenotype_Cathar</iconPath>
+				<nameMaker>KoTOR_NamerZygerrian</nameMaker>
+				<chanceToUseNameMaker>1</chanceToUseNameMaker>
+				<combatPowerFactor>1</combatPowerFactor>
+				<inheritable>true</inheritable>
+				<genes>
+					<li>guy762_Ears_BigCat</li>
+					<li>guy762_Beard_chinspines</li>
+					<li>guy762_statgene_predator</li>
+					<li>Turn_Gene_TraitGrandeur</li>
+					<li>Aggression_Aggressive</li>
+					<li>MeleeDamage_Strong</li>
+					<li>Turn_Gene_HighBeautyStandard</li>
+					<li>Hair_BaldOnly</li>
+					<li>Beard_NoBeardOnly</li>
+					<li>OuterRim_CatharHead</li>
+					<li>Body_Thin</li>
+					<li>Skin_DeepRed</li>
+					<li>Outland_Skin_Red</li>
+					<li>Outland_Skin_Brown</li>
+					<li>Outland_Skin_PaleBrown</li>
+					<li>guy762_Skin_MidGray</li>
+					<li>Skin_SlateGray</li>
+					<li>Skin_LightGray</li>
+					<li>Outland_Evasive</li>
+					<li>AptitudeStrong_Melee</li>
+				</genes>
+            </XenotypeDef>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_arkanian</xpath>
+			<value><OuterRim_Arkanian>0.001</OuterRim_Arkanian></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_cathar</xpath>
+			<value><OuterRim_Cathar>0.001</OuterRim_Cathar></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_mirialan</xpath>
+			<value><guy762_xenotype_nelvaanian>0.001</guy762_xenotype_nelvaanian></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_nemoidian</xpath>
+			<value><BT_Defel>0.001</BT_Defel></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_chadrafan</xpath>
+			<value><Dirtmole>0.001</Dirtmole></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_devaronian</xpath>
+			<value><OuterRim_Devaronian>0.001</OuterRim_Devaronian></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_rodian</xpath>
+			<value><OuterRim_Rodian>0.001</OuterRim_Rodian></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_duros</xpath>
+			<value><guy762_xenotype_gand>0.001</guy762_xenotype_gand></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_sullustan</xpath>
+			<value><OuterRim_Sullustan>0.001</OuterRim_Sullustan></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_iridonian</xpath>
+			<value><OuterRim_Kaleesh>0.001</OuterRim_Kaleesh></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_togruta</xpath>
+			<value><OuterRim_Kaminoan>0.001</OuterRim_Kaminoan></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_miraluka</xpath>
+			<value><guy762_xenotype_keldor>0.001</guy762_xenotype_keldor></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_twilek</xpath>
+			<value><guy762_xenotype_kubaz>0.001</guy762_xenotype_kubaz></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_umbaran</xpath>
+			<value><guy762_xenotype_mimbanese>0.001</guy762_xenotype_mimbanese></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_yoder</xpath>
+			<value><OuterRim_ForceGremlin>0.001</OuterRim_ForceGremlin></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_zabrak</xpath>
+			<value><OuterRim_Dathomirian>0.001</OuterRim_Dathomirian></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_zeltron</xpath>
+			<value><OuterRim_Zeltron>0.001</OuterRim_Zeltron></value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/FactionDef[defName="Force_Jedi_Remnant"]/xenotypeSet/xenotypeChances/guy762_xenotype_weequay</xpath>
+			<value><Waster>0.001</Waster></value>
+		</li>
+		</operations>
+	</Operation>
+
+
+</Patch>	

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+	<xpath>//FactionDef[defName="Beggars"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<Baseliner>1.0</Baseliner>
+			<BTD_Abednedo>0.005</BTD_Abednedo>
+			<BTD_Anzati>0.005</BTD_Anzati>
+			<BTD_Aqualish>0.01</BTD_Aqualish>
+			<BTD_Arkanian>0.005</BTD_Arkanian>
+			<BTD_Bith>0.0075</BTD_Bith>
+			<BTD_Bothan>0.005</BTD_Bothan>
+			<BTD_Cathar>0.0075</BTD_Cathar>
+			<BTD_Cerean>0.0075</BTD_Cerean>
+			<BTD_ChadraFan>0.005</BTD_ChadraFan>
+			<BTD_Chagrian>0.0075</BTD_Chagrian>
+			<!-- <BTD_Chiss>0.005</BTD_Chiss> -->
+			<BTD_Dathomirian>0.0075</BTD_Dathomirian>
+			<BTD_Defel>0.005</BTD_Defel>
+			<BTD_Devaronian>0.005</BTD_Devaronian>
+			<BTD_Duros>0.0075</BTD_Duros>
+			<BTD_Echani>0.005</BTD_Echani>
+			<!-- <BTD_Ewok>0.005</BTD_Ewok> -->
+			<BTD_Falleen>0.005</BTD_Falleen>
+			<BTD_Feeorin>0.005</BTD_Feeorin>
+			<!-- <BTD_Gamorrean>0.005</BTD_Gamorrean> -->
+			<BTD_Gand>0.005</BTD_Gand>
+			<!-- <BTD_Geonosian>0.005</BTD_Geonosian> -->
+			<BTD_Gungan>0.005</BTD_Gungan>
+			<BTD_Herglic>0.005</BTD_Herglic>
+			<BTD_Hutt>0.005</BTD_Hutt>
+			<BTD_Iktotchi>0.01</BTD_Iktotchi>
+			<BTD_Iridonian>0.01</BTD_Iridonian>
+			<BTD_Ithorian>0.0075</BTD_Ithorian>
+			<!-- <BTD_Jawa>0.005</BTD_Jawa> -->
+			<BTD_Kaleesh>0.005</BTD_Kaleesh>
+			<BTD_Kaminoan>0.001</BTD_Kaminoan>
+			<BTD_KelDor>0.005</BTD_KelDor>
+			<BTD_Klatoonian>0.005</BTD_Klatoonian>
+			<BTD_Kubaz>0.005</BTD_Kubaz>
+			<BTD_Lasat>0.001</BTD_Lasat>
+			<!-- BTD_Mandalorian>0.01</BTD_Mandalorian -->
+			<BTD_Mimbanese>0.005</BTD_Mimbanese>
+			<BTD_Miraluka>0.01</BTD_Miraluka>
+			<BTD_Mirialan>0.01</BTD_Mirialan>
+			<BTD_MonCalamari>0.01</BTD_MonCalamari>
+			<BTD_Muun>0.005</BTD_Muun>
+			<BTD_Nagai>0.005</BTD_Nagai>
+			<BTD_Nautolan>0.01</BTD_Nautolan>
+			<BTD_Neimoidian>0.005</BTD_Neimoidian>
+			<BTD_Nelvaanian>0.005</BTD_Nelvaanian>
+			<BTD_Nikto>0.01</BTD_Nikto>
+			<BTD_Ortolan>0.005</BTD_Ortolan>
+			<BTD_Pantoran>0.0075</BTD_Pantoran>
+			<BTD_Pyke>0.0075</BTD_Pyke>
+			<BTD_Quarren>0.0075</BTD_Quarren>
+			<!-- <BTD_Rakata>0.001</BTD_Rakata> -->
+			<BTD_Rodian>0.01</BTD_Rodian>
+			<BTD_Selkath>0.005</BTD_Selkath>
+			<!-- <BTD_SithK>0.005</BTD_SithK> -->
+			<!-- <BTD_SithM>0.005</BTD_SithM> -->
+			<!-- <BTD_SithZ>0.005</BTD_SithZ> -->
+			<BTD_Snivvian>0.005</BTD_Snivvian>
+			<BTD_Sullustan>0.005</BTD_Sullustan>
+			<BTD_Taung>0.005</BTD_Taung>
+			<BTD_Togorian>0.005</BTD_Togorian>
+			<BTD_Togruta>0.01</BTD_Togruta>
+			<BTD_Trandoshan>0.0075</BTD_Trandoshan>
+			<!-- <BTD_Tusken>0.005</BTD_Tusken> -->
+			<BTD_Twilek>0.01</BTD_Twilek>
+			<BTD_Ugnaught>0.005</BTD_Ugnaught>
+			<BTD_Umbaran>0.005</BTD_Umbaran>
+			<BTD_Weequay>0.005</BTD_Weequay>
+			<BTD_Wookiee>0.005</BTD_Wookiee>
+			<BTD_Yoder>0.001</BTD_Yoder>
+			<BTD_Zeltron>0.005</BTD_Zeltron>
+			<BTD_Zygerrian>0.005</BTD_Zygerrian>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<xpath>//FactionDef[defName="PirateYttakin"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<BTD_Bothan>1</BTD_Bothan>
+			<BTD_ChadraFan>1</BTD_ChadraFan>
+			<BTD_Wookiee>1</BTD_Wookiee>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<xpath>//FactionDef[defName="TribeSavageImpid"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<BTD_Tusken>1</BTD_Tusken>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<xpath>//FactionDef[defName="OutlanderRoughPig"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<BTD_Gamorrean>1</BTD_Gamorrean>		
+			<BTD_Ortolan>.75</BTD_Ortolan>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<xpath>//FactionDef[defName="PirateWaster"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<BTD_Weequay>.75</BTD_Weequay>
+			<BTD_Nikto>0.5</BTD_Nikto>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/FactionDef[defName="TribeCannibal"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<BTD_Ewok>999</BTD_Ewok>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<xpath>//FactionDef[defName="TribeRoughNeanderthal"]/xenotypeSet/xenotypeChances</xpath>
+		<value>
+			<BTD_Klatoonian>0.75</BTD_Klatoonian>
+			<BTD_Herglic>0.75</BTD_Herglic>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/FactionDef[defName="NudistTribe"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<BTD_Twilek>0.15</BTD_Twilek>
+					<BTD_Togruta>0.15</BTD_Togruta>
+					<BTD_Zeltron>0.15</BTD_Zeltron>
+					<BTD_Falleen>0.15</BTD_Falleen>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/FactionDef[defName="TribeCivil"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<BTD_Cerean>0.05</BTD_Cerean>
+					<BTD_Chagrian>0.05</BTD_Chagrian>
+					<BTD_Echani>0.1</BTD_Echani>
+					<BTD_Iktotchi>0.05</BTD_Iktotchi>
+					<BTD_Ithorian>0.1</BTD_Ithorian>
+					<BTD_Miraluka>0.1</BTD_Miraluka>
+					<BTD_Mirialan>0.1</BTD_Mirialan>
+					<BTD_Togruta>0.1</BTD_Togruta>
+					<BTD_Trandoshan>0.05</BTD_Trandoshan>
+					<BTD_Twilek>0.1</BTD_Twilek>
+					<BTD_Yoder>.0001</BTD_Yoder>
+					<BTD_Zeltron>0.1</BTD_Zeltron>
+					<BTD_Zygerrian>0.1</BTD_Zygerrian>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/FactionDef[defName="TribeRough"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<BTD_Cathar>999</BTD_Cathar>
+					<BTD_Zygerrian>999</BTD_Zygerrian>
+					<BTD_Togorian>999</BTD_Togorian>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/FactionDef[defName="TribeSavage"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<BTD_Dathomirian>999</BTD_Dathomirian>
+					<BTD_Chagrian>999</BTD_Chagrian>
+					<BTD_Iridonian>999</BTD_Iridonian>
+					<BTD_Falleen>999</BTD_Falleen>
+					<BTD_Feeorin>999</BTD_Feeorin>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+ </Patch>
+
+

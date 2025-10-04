@@ -1,0 +1,46 @@
+<ModMetaData>
+	<name>[BTD] Xenotype REMIX: Star Wars</name>
+	<author>beeteedubs</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>btd.XenotypeRemix.StarWars</packageId>
+	
+	<description>Patches to customize and de-dupe Xenos for Star Wars Xenotypes, Outer Rim Galactic Diversity &amp; Star Wars The Force-Psycast</description>
+	
+<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+		<li>
+			<packageId>guy762.StarWarsXenotypes</packageId>
+			<displayName>Star Wars Xenotypes</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2915192253</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2915192253</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Neronix17.OuterRim.GalacticDiversity</packageId>
+			<displayName>Outer Rim - Galactic Diversity</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2980427615</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2980427615</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	
+	<loadAfter>
+		<li>guy762.StarWarsXenotypes</li>
+		<li>Neronix17.OuterRim.GalacticDiversity</li>
+		<li>lee.theforce.psycast</li>
+		<li>Neronix17.OuterRim.Core</li>
+		<li>Neronix17.OuterRim.RebelAlliance</li>
+		<li>Neronix17.OuterRim.Csilla</li>
+		<li>Neronix17.OuterRim.GalacticEmpire</li>
+		<li>Neronix17.OuterRim.OldRepublic</li>
+		<li>Neronix17.OuterRim.Mandalore</li>
+		<li>lee.theforce.standalone</li>
+		<li>lee.theforce.lightsaber</li>
+		<li>lee.theforce.factions</li>
+		<li>guy762.KotORFactions</li>
+	</loadAfter>
+</ModMetaData>
+

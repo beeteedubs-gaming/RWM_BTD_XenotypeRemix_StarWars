@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XenotypeEquivalencies>
+	<!-- Species that appear in all 3 mods -->
+	<EquivalentGroup>
+	<Species>Aqualish</Species>
+		<BTD>BTD_Aqualish</BTD>
+		<SWX>guy762_xenotype_aqualish</SWX>
+		<OR>OuterRim_Aqualish</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Arkanian</Species>
+		<BTD>BTD_Arkanian</BTD>
+		<SWX>guy762_xenotype_arkanian</SWX>
+		<OR>OuterRim_Arkanian</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Bith</Species>
+		<BTD>BTD_Bith</BTD>
+		<SWX>guy762_xenotype_bith</SWX>
+		<OR>OuterRim_Bith</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Bothan</Species>
+		<BTD>BTD_Bothan</BTD>
+		<SWX>guy762_xenotype_bothan</SWX>
+		<OR>OuterRim_Bothan</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Cathar</Species>
+		<BTD>BTD_Cathar</BTD>
+		<SWX>guy762_xenotype_cathar</SWX>
+		<OR>OuterRim_Cathar</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Chiss</Species>
+		<BTD>BTD_Chiss</BTD>
+		<SWX>guy762_xenotype_chiss</SWX>
+		<OR>OuterRim_Chiss</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Dathomirian</Species>
+		<BTD>BTD_Dathomirian</BTD>
+		<SWX>guy762_xenotype_zabrakDathomiri</SWX>
+		<OR>OuterRim_Dathomirian</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Devaronian</Species>
+		<BTD>BTD_Devaronian</BTD>
+		<SWX>guy762_xenotype_devaronian</SWX>
+		<OR>OuterRim_Devaronian</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Duros</Species>
+		<BTD>BTD_Duros</BTD>
+		<SWX>guy762_xenotype_duros</SWX>
+		<OR>OuterRim_Duros</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Ewok</Species>
+		<BTD>BTD_Ewok</BTD>
+		<SWX>guy762_xenotype_ewok</SWX>
+		<OR>OuterRim_Ewok</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Gungan</Species>
+		<BTD>BTD_Gungan</BTD>
+		<SWX>guy762_xenotype_gungan</SWX>
+		<OR>OuterRim_Gungan</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Iridonian</Species>
+		<BTD>BTD_Iridonian</BTD>
+		<SWX>guy762_xenotype_iridonian</SWX>
+		<OR>OuterRim_Iridonian</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Ithorian</Species>
+		<BTD>BTD_Ithorian</BTD>
+		<SWX>guy762_xenotype_ithorian</SWX>
+		<OR>OuterRim_Ithorian</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Jawa</Species>
+		<BTD>BTD_Jawa</BTD>
+		<SWX>guy762_xenotype_jawa</SWX>
+		<OR>OuterRim_Jawa</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Kaleesh</Species>
+		<BTD>BTD_Kaleesh</BTD>
+		<SWX>guy762_xenotype_kaleesh</SWX>
+		<OR>OuterRim_Kaleesh</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Miraluka</Species>
+		<BTD>BTD_Miraluka</BTD>
+		<SWX>guy762_xenotype_miraluka</SWX>
+		<OR>OuterRim_Miraluka</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Mirialan</Species>
+		<BTD>BTD_Mirialan</BTD>
+		<SWX>guy762_xenotype_mirialan</SWX>
+		<OR>OuterRim_Mirialan</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>MonCalamari</Species>
+		<BTD>BTD_MonCalamari</BTD>
+		<SWX>guy762_xenotype_moncal</SWX>
+		<OR>OuterRim_MonCalamari</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Neimoidian</Species>
+		<BTD>BTD_Neimoidian</BTD>
+		<SWX>guy762_xenotype_nemoidian</SWX>
+		<OR>OuterRim_Neimoidian</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Nikto</Species>
+		<BTD>BTD_Nikto</BTD>
+		<SWX>guy762_xenotype_nikto</SWX>
+		<OR>OuterRim_Nikto</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Pantoran</Species>
+		<BTD>BTD_Pantoran</BTD>
+		<SWX>guy762_xenotype_pantoran</SWX>
+		<OR>OuterRim_Pantoran</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Quarren</Species>
+		<BTD>BTD_Quarren</BTD>
+		<SWX>guy762_xenotype_quarren</SWX>
+		<OR>OuterRim_Quarren</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Rodian</Species>
+		<BTD>BTD_Rodian</BTD>
+		<SWX>guy762_xenotype_rodian</SWX>
+		<OR>OuterRim_Rodian</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Selkath</Species>
+		<BTD>BTD_Selkath</BTD>
+		<SWX>guy762_xenotype_selkath</SWX>
+		<OR>OuterRim_Selkath</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>SithKissaiPureblood</Species>
+		<BTD>BTD_SithK</BTD>
+		<SWX>guy762_xenotype_sith</SWX>
+		<OR>OuterRim_Sith</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Sullustan</Species>
+		<BTD>BTD_Sullustan</BTD>
+		<SWX>guy762_xenotype_sullustan</SWX>
+		<OR>OuterRim_Sullustan</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Tusken</Species>
+		<BTD>BTD_Tusken</BTD>
+		<SWX>guy762_xenotype_tusken</SWX>
+		<OR>OuterRim_Tusken</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Togruta</Species>
+		<BTD>BTD_Togruta</BTD>
+		<SWX>guy762_xenotype_togruta</SWX>
+		<OR>OuterRim_Togruta</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Trandoshan</Species>
+		<BTD>BTD_Trandoshan</BTD>
+		<SWX>guy762_xenotype_trandoshan</SWX>
+		<OR>OuterRim_Trandoshan</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Twilek</Species>
+		<BTD>BTD_Twilek</BTD>
+		<SWX>guy762_xenotype_twilek</SWX>
+		<OR>OuterRim_Twilek</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Umbaran</Species>
+		<BTD>BTD_Umbaran</BTD>
+		<SWX>guy762_xenotype_umbaran</SWX>
+		<OR>OuterRim_Umbaran</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Wookiee</Species>
+		<BTD>BTD_Wookiee</BTD>
+		<SWX>guy762_xenotype_wookiee</SWX>
+		<OR>OuterRim_Wookiee</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>YoderForceGremlin</Species>
+		<BTD>BTD_Yoder</BTD>
+		<SWX>guy762_xenotype_yoder</SWX>
+		<OR>OuterRim_ForceGremlin</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Zeltron</Species>
+		<BTD>BTD_Zeltron</BTD>
+		<SWX>guy762_xenotype_zeltron</SWX>
+		<OR>OuterRim_Zeltron</OR>
+	</EquivalentGroup>
+
+	<!-- Species in BTD + SWX only -->
+	<EquivalentGroup>
+	<Species>ChadraFan</Species>
+		<BTD>BTD_ChadraFan</BTD>
+		<SWX>guy762_xenotype_chadrafan</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Defel</Species>
+		<BTD>BTD_Defel</BTD>
+		<SWX>guy762_xenotype_defel</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Echani</Species>
+		<BTD>BTD_Echani</BTD>
+		<SWX>guy762_xenotype_echani</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Falleen</Species>
+		<BTD>BTD_Falleen</BTD>
+		<SWX>guy762_xenotype_falleen</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Feeorin</Species>
+		<BTD>BTD_Feeorin</BTD>
+		<SWX>guy762_xenotype_feeorin</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Gamorrean</Species>
+		<BTD>BTD_Gamorrean</BTD>
+		<SWX>guy762_xenotype_gamorrean</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Gand</Species>
+		<BTD>BTD_Gand</BTD>
+		<SWX>guy762_xenotype_gand</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>GeonosianVariants</Species>
+		<BTD>BTD_Geonosian</BTD>
+		<OR>OuterRim_Geonosian</OR>
+		<SWX>guy762_xenotype_geonosian_drone</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Hutt</Species>
+		<BTD>BTD_Hutt</BTD>
+		<SWX>guy762_xenotype_hutt</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>KelDor</Species>
+		<BTD>BTD_KelDor</BTD>
+		<SWX>guy762_xenotype_keldor</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Klatoonian</Species>
+		<BTD>BTD_Klatoonian</BTD>
+		<SWX>guy762_xenotype_klatoonian</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Kubaz</Species>
+		<BTD>BTD_Kubaz</BTD>
+		<SWX>guy762_xenotype_kubaz</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Lasat</Species>
+		<BTD>BTD_Lasat</BTD>
+		<SWX>guy762_xenotype_lasat</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Mimbanese</Species>
+		<BTD>BTD_Mimbanese</BTD>
+		<SWX>guy762_xenotype_mimbanese</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Nagai</Species>
+		<BTD>BTD_Nagai</BTD>
+		<SWX>guy762_xenotype_nagai</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Nautolan</Species>
+		<BTD>BTD_Nautolan</BTD>
+		<SWX>guy762_xenotype_nautolan</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Nelvaanian</Species>
+		<BTD>BTD_Nelvaanian</BTD>
+		<SWX>guy762_xenotype_nelvaanian</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Snivvian</Species>
+		<BTD>BTD_Snivvian</BTD>
+		<SWX>guy762_xenotype_snivvian</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Taung</Species>
+		<BTD>BTD_Taung</BTD>
+		<SWX>guy762_xenotype_taung</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Ugnaught</Species>
+		<BTD>BTD_Ugnaught</BTD>
+		<SWX>guy762_xenotype_ugnaught</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Weequay</Species>
+		<BTD>BTD_Weequay</BTD>
+		<SWX>guy762_xenotype_weequay</SWX>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Zygerrian</Species>
+		<BTD>BTD_Zygerrian</BTD>
+		<SWX>guy762_xenotype_zygerrian</SWX>
+	</EquivalentGroup>
+
+	<!-- Species in BTD + OR only -->
+	<EquivalentGroup>
+	<Species>Abednedo</Species>
+		<BTD>BTD_Abednedo</BTD>
+		<OR>OuterRim_Abednedo</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Cerean</Species>
+		<BTD>BTD_Cerean</BTD>
+		<OR>OuterRim_Cerean</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Chagrian</Species>
+		<BTD>BTD_Chagrian</BTD>
+		<OR>OuterRim_Chagrian</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Herglic</Species>
+		<BTD>BTD_Herglic</BTD>
+		<OR>OuterRim_Herglic</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Iktotchi</Species>
+		<BTD>BTD_Iktotchi</BTD>
+		<OR>OuterRim_Iktotchi</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Kaminoan</Species>
+		<BTD>BTD_Kaminoan</BTD>
+		<OR>OuterRim_Kaminoan</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>SithMassassi</Species>
+		<BTD>BTD_SithM</BTD>
+		<OR>OuterRim_Massassi</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Pyke</Species>
+		<BTD>BTD_Pyke</BTD>
+		<OR>OuterRim_Pyke</OR>
+	</EquivalentGroup>
+
+	<EquivalentGroup>
+	<Species>Rakata</Species>
+		<BTD>BTD_Rakata</BTD>
+		<OR>OuterRim_Rakata</OR>
+	</EquivalentGroup>
+
+	<!-- Unique species (no equivalents) -->
+	<!-- BTD Only -->
+	<UniqueSpecies>
+	<Species>Anzati</Species>
+		<BTD>BTD_Anzati</BTD>
+	</UniqueSpecies>
+
+	<UniqueSpecies>
+	<Species>Mandalorian</Species>
+		<BTD>BTD_Mandalorian</BTD>
+	</UniqueSpecies>
+
+	<UniqueSpecies>
+	<Species>Muun</Species>
+		<BTD>BTD_Muun</BTD>
+	</UniqueSpecies>
+
+	<UniqueSpecies>
+	<Species>Ortolan</Species>
+		<BTD>BTD_Ortolan</BTD>
+	</UniqueSpecies>
+
+	<UniqueSpecies>
+	<Species>SithZugurak</Species>
+		<BTD>BTD_SithZ</BTD>
+	</UniqueSpecies>
+
+	<UniqueSpecies>
+	<Species>Togorian</Species>
+		<BTD>BTD_Togorian</BTD>
+	</UniqueSpecies>
+
+	<!-- SWX Only -->
+	<UniqueSpecies>
+	<Species>Kage</Species>
+		<SWX>Lee_xenotype_kage</SWX>
+	</UniqueSpecies>
+
+	<UniqueSpecies>
+	<Species>Zabrak</Species>
+		<SWX>guy762_xenotype_zabrak</SWX>
+	</UniqueSpecies>
+</XenotypeEquivalencies>
